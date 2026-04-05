@@ -1,0 +1,6226 @@
+[
+  {
+    "doc_id": "MN_NEWS_001",
+    "headline": "জেএসিনা লানহৌবা উনরুবগী ৱাফম শেংদোকখ্রে",
+    "source_language": "Manipuri",
+    "location": "Heirok, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "হৈরোক্কী প্রজাশিংনা শেম্বা এসপিওদা নোংমৈ পীবা অমসুং মদুবু লৌবা লৌদবগী মতাংদা মীফম পাঙথোকখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "জেএসি হৈরোক্না প্রজাশিংদা মশা ঙাকথোকচনবা নোংমৈ পীয়ু হায়না চঙশিল্লকখি"
+      },
+      {
+        "sid": 3,
+        "text": "গবর্ণমেন্টনা হৈরোক্তা এসপিও থম্নবা ৱারেপ লৌখ্রে"
+      },
+      {
+        "sid": 4,
+        "text": "জেএসি অমসুং প্রজাশিংগী মরক্তা পেন্দবা অমদি পাউ ফাওনদবা লৈরিবশিং শেংদোক্নখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "হৈরোক্কী",
+        "pos": "PROPN"
+      },
+      {
+        "token": "প্রজাশিংনা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "এসপিওদা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "নোংমৈ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পীবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "গবর্ণমেন্টনা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "থম্নবা",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "হৈরোক",
+        "text_en": "Heirok",
+        "label": "LOC"
+      },
+      {
+        "text": "জেএসি",
+        "text_en": "JAC (Joint Action Committee)",
+        "label": "ORG"
+      },
+      {
+        "text": "গবর্ণমেন্ট",
+        "text_en": "Government",
+        "label": "ORG"
+      },
+      {
+        "text": "এসপিও",
+        "text_en": "SPO (Special Police Officer)",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "মীফম পাঙথোকখ্রে",
+        "trigger_en": "public meeting held",
+        "type": "MEETING",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "হৈরোক",
+            "text_en": "Heirok"
+          },
+          {
+            "role": "PARTICIPANT",
+            "text": "প্রজাশিং",
+            "text_en": "local residents"
+          },
+          {
+            "role": "PARTICIPANT",
+            "text": "জেএসি",
+            "text_en": "JAC"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "এসপিও থম্নবা",
+        "trigger_en": "SPO deployment",
+        "type": "SECURITY_DEPLOYMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "গবর্ণমেন্ট",
+            "text_en": "Government"
+          },
+          {
+            "role": "LOC",
+            "text": "হৈরোক",
+            "text_en": "Heirok"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "নোংমৈ পীয়ু",
+        "trigger_en": "arms distribution",
+        "type": "WEAPON_DISTRIBUTION",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "প্রজাশিং",
+            "text_en": "local residents"
+          },
+          {
+            "role": "LOC",
+            "text": "হৈরোক",
+            "text_en": "Heirok"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "শেংদোক্নখি",
+        "trigger_en": "clarification issued",
+        "type": "PUBLIC_STATEMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "জেএসি",
+            "text_en": "JAC"
+          },
+          {
+            "role": "TOPIC",
+            "text": "নোংমৈ পীয়ু",
+            "text_en": "arms for self-defense"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Residents of Heirok held a public meeting to discuss the deployment of SPO personnel and the issue of providing arms for local protection. The JAC clarified that the demand for arms was meant for self-defense and not for promoting violence. The government has already decided to deploy SPOs in the area, and discussions were held to address public concerns and misunderstandings.",
+    "salience": [
+      {
+        "node": "Heirok",
+        "type": "LOC",
+        "score": 0.93
+      },
+      {
+        "node": "SPO deployment",
+        "type": "EVENT",
+        "score": 0.91
+      },
+      {
+        "node": "public meeting",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "JAC",
+        "type": "ORG",
+        "score": 0.86
+      }
+    ],
+    "manipuri_human_summary": "হৈরোক্তা এসপিও থম্বা অমসুং স্থানীয় প্রজাশিংদা ঙাকশেল তৌনবা নোংমৈ পীবগী মতাংদা মীফম পাঙথোকখ্রে। জেএসিনা নোংমৈ পীনবা ডিমান্ড অসি হিংসা শাগৎপগীদমক নত্তনা মশাগী ঙাকশেলগীদমক ওই হায়না শেংদোকখি। গবর্ণমেন্টনসু মফম অদুদা এসপিও থম্বা ৱারেপ লৌখ্রে।"
+  },
+  {
+    "doc_id": "MN_NEWS_002",
+    "headline": "এইডসকা মরী লৈনবা আইন শেম্নবা সিগনেচর কেম্পেইন হৌখ্রে",
+    "headline_en": "Signature campaign launched demanding HIV/AIDS-related law",
+    "source_language": "Manipuri",
+    "location": "Bishnupur District, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "ঐচআইভি / এইডসনা শোকহল্লবা মীওইশিংগীদমক্তা আইন শেম্মু হায়বা ডিমাণ্ড তৌদুনা সিগনেচর কেম্পেইন হৌদোকখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "বিষ্ণুপুর ডিষ্ট্রিক্টকি কুম্বী কৈথেলদা কেম্পেইন হৌদোকখ্রে"
+      },
+      {
+        "sid": 3,
+        "text": "ডেডিকেটেড পিপলস য়ুনিয়ন অমসুং হোপ ফোর ওল অমদি লোয়র্স গ্রুপনা সাপোর্ট তৌরক্লে"
+      },
+      {
+        "sid": 4,
+        "text": "ড্রগ ইউজরশিং অমসুং ফিমেল সেক্স ৱার্করশিংদগী সিগনেচর লৌগনি"
+      },
+      {
+        "sid": 5,
+        "text": "সিগনেচরশিং প্রাইম মিনিষ্টর মনমোহন সিংহ অমসুং সোনিয়া গান্ধি অমদি এল কে অডবানিদা পীগনি"
+      },
+      {
+        "sid": 6,
+        "text": "এইডস বিল 2005 পার্লিয়ামেন্টতা পুথোক্নবা ডিমাণ্ড তৌদুনা কেম্পেইন চত্থবনি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "ঐচআইভি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "এইডস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "সিগনেচর",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কেম্পেইন",
+        "pos": "NOUN"
+      },
+      {
+        "token": "হৌদোকখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "বিষ্ণুপুর",
+        "pos": "PROPN"
+      },
+      {
+        "token": "ডিষ্ট্রিক্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ডিমাণ্ড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পীগনি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "বিষ্ণুপুর ডিষ্ট্রিক্ট",
+        "text_en": "Bishnupur District",
+        "label": "LOC"
+      },
+      {
+        "text": "কুম্বী কৈথেল",
+        "text_en": "Kumbi Keithel (market area)",
+        "label": "LOC"
+      },
+      {
+        "text": "ডেডিকেটেড পিপলস য়ুনিয়ন",
+        "text_en": "Dedicated People's Union",
+        "label": "ORG"
+      },
+      {
+        "text": "হোপ ফোর ওল",
+        "text_en": "Hope for All",
+        "label": "ORG"
+      },
+      {
+        "text": "লোয়র্স গ্রুপ",
+        "text_en": "Lawyers Group",
+        "label": "ORG"
+      },
+      {
+        "text": "মনমোহন সিংহ",
+        "text_en": "Dr. Manmohan Singh",
+        "label": "PERSON"
+      },
+      {
+        "text": "সোনিয়া গান্ধি",
+        "text_en": "Sonia Gandhi",
+        "label": "PERSON"
+      },
+      {
+        "text": "এল কে অডবানি",
+        "text_en": "L. K. Advani",
+        "label": "PERSON"
+      },
+      {
+        "text": "এইচআইভি/এইডস বিল 2005",
+        "text_en": "HIV/AIDS Bill 2005",
+        "label": "LAW"
+      },
+      {
+        "text": "পার্লিয়ামেন্ট",
+        "text_en": "Indian Parliament",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "সিগনেচর কেম্পেইন হৌদোকখ্রে",
+        "trigger_en": "signature campaign launched",
+        "type": "CAMPAIGN_LAUNCH",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "বিষ্ণুপুর ডিষ্ট্রিক্ট",
+            "text_en": "Bishnupur District"
+          },
+          {
+            "role": "ISSUE",
+            "text": "ঐচআইভি / এইডস আইন",
+            "text_en": "HIV/AIDS legislation"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "সাপোর্ট তৌরক্লে",
+        "trigger_en": "support provided",
+        "type": "ORGANIZATIONAL_SUPPORT",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "ডেডিকেটেড পিপলস য়ুনিয়ন",
+            "text_en": "Dedicated People's Union"
+          },
+          {
+            "role": "ORG",
+            "text": "হোপ ফোর ওল",
+            "text_en": "Hope for All"
+          },
+          {
+            "role": "ORG",
+            "text": "লোয়র্স গ্রুপ",
+            "text_en": "Lawyers Group"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "সিগনেচর লৌগনি",
+        "trigger_en": "signatures collected",
+        "type": "SIGNATURE_COLLECTION",
+        "arguments": [
+          {
+            "role": "GROUP",
+            "text": "ড্রগ ইউজরশিং",
+            "text_en": "drug users"
+          },
+          {
+            "role": "GROUP",
+            "text": "ফিমেল সেক্স ৱার্করশিং",
+            "text_en": "female sex workers"
+          },
+          {
+            "role": "LOC",
+            "text": "বিষ্ণুপুর",
+            "text_en": "Bishnupur"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "পীগনি",
+        "trigger_en": "submission planned",
+        "type": "PETITION_SUBMISSION",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "মনমোহন সিংহ",
+            "text_en": "Prime Minister Manmohan Singh"
+          },
+          {
+            "role": "TARGET",
+            "text": "সোনিয়া গান্ধি",
+            "text_en": "Sonia Gandhi"
+          },
+          {
+            "role": "TARGET",
+            "text": "এল কে অডবানি",
+            "text_en": "L. K. Advani"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "ডিমাণ্ড তৌদুনা",
+        "trigger_en": "demand raised",
+        "type": "POLICY_DEMAND",
+        "arguments": [
+          {
+            "role": "LAW",
+            "text": "এইডস বিল 2005",
+            "text_en": "HIV/AIDS Bill 2005"
+          },
+          {
+            "role": "INSTITUTION",
+            "text": "পার্লিয়ামেন্ট",
+            "text_en": "Indian Parliament"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "A signature campaign was launched in Bishnupur district demanding the enactment of a dedicated law for people affected by HIV/AIDS. The campaign, supported by civil society organizations and legal groups, aims to collect signatures from vulnerable communities including drug users and sex workers. The collected signatures will be submitted to national leaders including the Prime Minister and other political figures. The campaign also calls for the HIV/AIDS Bill 2005 to be passed in Parliament to ensure legal protection and prevent discrimination against affected individuals.",
+    "salience": [
+      {
+        "node": "HIV/AIDS law demand",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "signature campaign",
+        "type": "EVENT",
+        "score": 0.93
+      },
+      {
+        "node": "Bishnupur District",
+        "type": "LOC",
+        "score": 0.9
+      },
+      {
+        "node": "HIV/AIDS Bill 2005",
+        "type": "LAW",
+        "score": 0.88
+      },
+      {
+        "node": "civil society organizations",
+        "type": "ORG",
+        "score": 0.86
+      }
+    ],
+    "manipuri_human_summary": "বিষ্ণুপুর ডিষ্ট্রিক্টতা ঐচআইভি/এইডসনা শোকহল্লবা মীওইশিংগীদমক আলাদা আইন শেম্বীয়ু হায়না সিগনেচর কেম্পেইন হৌদোকখ্রে। ড্রগ ইউজরশিং, ফিমেল সেক্স ৱার্করশিং অমসুং অতৈ মরুপশিংদগী সিগনেচর লৌদুনা মসিদু প্রাইম মিনিষ্টর অমসুং অতৈ জাতীয় লীডরশিংদা পীগনি। লোয়ননা এইচআইভি/এইডস বিল 2005 পার্লিয়ামেন্টতা পাশ তৌনবা ডিমাণ্ড তৌরি।"
+  },
+  {
+    "doc_id": "MN_NEWS_003",
+    "headline": "মচোই মচোই তারবা কেসিপি পূনশিন্নবা হোত্নগনি",
+    "headline_en": "Efforts underway to reunify fragmented KCP factions",
+    "source_language": "Manipuri",
+    "domain": "Conflict / Insurgency / Organizational Dynamics",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "কেসিপিগী জেনরেল সেক্রেটরি কেকে ঙানবা সেনিয়র লীডরশিংগা মপাঙ্গল শাগত্পগী থবক চত্থরি"
+      },
+      {
+        "sid": 2,
+        "text": "জেনরেল কংগ্রেস মতুংদা পার্টি পূনশিনবা অমদি শেমদোকপা হোত্নবশিং চত্থখি"
+      },
+      {
+        "sid": 3,
+        "text": "কেৱাই-কেএল, য়ুএনএলএফ অমদি প্রিপাক অমসুং ওবজার্বরশিং য়াওনা শেমখিবা ফোর্মেট তৌরক্লে"
+      },
+      {
+        "sid": 4,
+        "text": "পার্টিগী কাডরশিংদা ডিসচার্জ তৌবা অমদি রেঙ্ক পরিবর্তন তৌরক্লে"
+      },
+      {
+        "sid": 5,
+        "text": "জেনরেল সেক্রেটরিবু হাউস এরেষ্ট তৌরক্লে"
+      },
+      {
+        "sid": 6,
+        "text": "পার্টিগী অস্ত্রশক্তি অমদি খূত্লায় 15 গা 3000 হেন্না পীথোক্তুনা শক্তি শাগত্পা হোত্নরক্লে"
+      },
+      {
+        "sid": 7,
+        "text": "কেসিপি গ্রুপশিং পুনশিনবা অঙম্বা থাক্তা হোত্নগনি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "কেসিপি",
+        "pos": "PROPN"
+      },
+      {
+        "token": "জেনরেল",
+        "pos": "NOUN"
+      },
+      {
+        "token": "সেক্রেটরি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লীডরশিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চত্থরি",
+        "pos": "VERB"
+      },
+      {
+        "token": "পূনশিনবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "শেমদোকপা",
+        "pos": "VERB"
+      },
+      {
+        "token": "ডিসচার্জ",
+        "pos": "VERB"
+      },
+      {
+        "token": "হাউস এরেষ্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "খূত্লায়",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "কেসিপি",
+        "text_en": "KCP (Kangleipak Communist Party)",
+        "label": "ORG"
+      },
+      {
+        "text": "কেকে ঙানবা",
+        "text_en": "K.K. Ngamba",
+        "label": "PERSON"
+      },
+      {
+        "text": "মেজর এম নোংথাং",
+        "text_en": "Major M. Nongthang",
+        "label": "PERSON"
+      },
+      {
+        "text": "কেৱাই-কেএল",
+        "text_en": "KYKL",
+        "label": "ORG"
+      },
+      {
+        "text": "য়ুএনএলএফ",
+        "text_en": "UNLF (United National Liberation Front)",
+        "label": "ORG"
+      },
+      {
+        "text": "প্রিপাক",
+        "text_en": "PREPAK",
+        "label": "ORG"
+      },
+      {
+        "text": "জেনরেল কংগ্রেস",
+        "text_en": "General Congress (organizational meeting)",
+        "label": "EVENT"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "মপাঙ্গল শাগত্পগী থবক চত্থরি",
+        "trigger_en": "efforts to strengthen organizational power",
+        "type": "ORGANIZATION_STRENGTHENING",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "কেসিপি",
+            "text_en": "KCP"
+          },
+          {
+            "role": "LEADER",
+            "text": "কেকে ঙানবা",
+            "text_en": "K.K. Ngamba"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "পূনশিনবা",
+        "trigger_en": "reunification",
+        "type": "ORGANIZATION_MERGER",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "কেসিপি",
+            "text_en": "KCP"
+          },
+          {
+            "role": "EVENT",
+            "text": "জেনরেল কংগ্রেস",
+            "text_en": "General Congress"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ফোর্মেট তৌরক্লে",
+        "trigger_en": "coordination framework established",
+        "type": "INTER_GROUP_COORDINATION",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "KYKL",
+            "text_en": "KYKL"
+          },
+          {
+            "role": "ORG",
+            "text": "UNLF",
+            "text_en": "UNLF"
+          },
+          {
+            "role": "ORG",
+            "text": "PREPAK",
+            "text_en": "PREPAK"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ডিসচার্জ তৌবা",
+        "trigger_en": "cadre dismissal",
+        "type": "INTERNAL_DISCIPLINE",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "কেসিপি",
+            "text_en": "KCP"
+          },
+          {
+            "role": "TARGET",
+            "text": "কাডরশিং",
+            "text_en": "party cadres"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "হাউস এরেষ্ট তৌরক্লে",
+        "trigger_en": "house arrest",
+        "type": "DETENTION",
+        "arguments": [
+          {
+            "role": "PERSON",
+            "text": "জেনরেল সেক্রেটরি",
+            "text_en": "General Secretary"
+          },
+          {
+            "role": "ORG",
+            "text": "কেসিপি",
+            "text_en": "KCP"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_6",
+        "trigger": "খূত্লায় পীথোক্তুনা",
+        "trigger_en": "weapons allocation",
+        "type": "ARMAMENT",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "কেসিপি",
+            "text_en": "KCP"
+          },
+          {
+            "role": "QUANTITY",
+            "text": "15 অস্ত্র, 3000+ ammunition",
+            "text_en": "15 weapons and over 3000 ammunition units"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_7",
+        "trigger": "পূনশিনবা হোত্নগনি",
+        "trigger_en": "efforts for reunification continue",
+        "type": "STRATEGIC_PLANNING",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "কেসিপি গ্রুপশিং",
+            "text_en": "KCP factions"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Efforts are ongoing within the Kangleipak Communist Party (KCP) to reunify its fragmented factions and strengthen organizational capacity. Senior leaders, including the General Secretary, are actively working toward consolidation following internal divisions. Coordination mechanisms involving other insurgent groups such as KYKL, UNLF, and PREPAK have also been discussed. Internal disciplinary actions, leadership conflicts, and even house arrest of key figures indicate significant internal turmoil. Additionally, the organization is attempting to rebuild its strength through restructuring and resource mobilization, including weapons allocation. Overall, the party is pursuing strategic reunification while dealing with internal instability.",
+    "salience": [
+      {
+        "node": "KCP reunification",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "KCP",
+        "type": "ORG",
+        "score": 0.95
+      },
+      {
+        "node": "internal conflict",
+        "type": "EVENT",
+        "score": 0.91
+      },
+      {
+        "node": "inter-group coordination",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "weapons allocation",
+        "type": "EVENT",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "কেসিপীগী মচোই মচোই থোক্লবা গ্রুপশিংবু পুনশিন্নবা অমসুং পার্টিগী শক্তি শাগত্নবা হোত্নরক্লি। জেনরেল সেক্রেটরি অমদি সেনিয়র লীডরশিংনা অভ্যন্তরীণ অশান্তি, শাস্তিমূলক থৌদোক অমদি হাউস এরেষ্টগী মরক্তাসু পুনশিনবা মওং খল্লি। কেৱাই-কেএল, য়ুএনএলএফ অমদি প্রিপাকগা মরী লৈননা কোঅর্ডিনেসন ফোর্মেটসু শেম্লে।"
+  },
+  {
+    "doc_id": "MN_NEWS_004",
+    "headline": "ঊত্ চাইবগী ৱারোইশিন লৈগনি",
+    "headline_en": "A warning has been issued against extortion activities",
+    "source_language": "Manipuri",
+    "domain": "Conflict / Public Warning / Extortion",
+    "location": "Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "কেসিপি-এমসিগী সেক্রেটরি লানহৈবা মৈতৈনা মীয়ামদা উত্ চাইরিবসিগী ৱারোইশিন অমা লৈফম থোকই হায়রি"
+      },
+      {
+        "sid": 2,
+        "text": "মীয়ামদা নমথাক তৌনবা হোত্নরিবা কাঙলূপ অসিবু কাউন্সিল অসিনা অহকপা চৈরাক পীগনি হায়না ৱার্নিং তৌরক্লি"
+      },
+      {
+        "sid": 3,
+        "text": "ড্রগ চাবা, নিশা চাবশিং অমসুং মোবাইল পৈশা হাপ্নবগী ৱাখল্লোন্দা শম্নরিবা খুদক্তগী লেপকদবনি হায়না ফোঙদোকখি"
+      },
+      {
+        "sid": 4,
+        "text": "য়াওল ঈহৌ অমদি নীংতম লানহৌ ঈহৌ হায়বসিদি মীয়ামগীনি অমদি জাতি ফুরুপ খুদিংমক্না শরুক য়ামিন্নগদবনি হায়রি"
+      },
+      {
+        "sid": 5,
+        "text": "ইণ্ডিয়ান ফোর্সশিংনা হকথেংননা খুত্ থোক্নবা অমদি খুত্ থানবা হায়বসি নুঙগুম্বা অচেত্পা ৱাখল্লোল অমা য়াওদনা থকসি খাসি খঙদনা খন্নগদবনি হায়রি"
+      },
+      {
+        "sid": 6,
+        "text": "রাসেশ্বরি, বাবুপারা বোম ব্লাষ্ট অমদি রিমসকি পোকখাইখিবা হায়দুনা মীয়ামদা হেন্না কিহন্নবা হোত্নরিবা পার্টি অসিবু শাদুনা ঙাঙলিবা মীওইশিংগী ৱাফমসু থম্লক্লি"
+      },
+      {
+        "sid": 7,
+        "text": "মীয়াম্না কেসিপি-এমসিবু অঙম্বা মতেং পাংবীয়ু হায়না আপিল তৌরক্লি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "কেসিপি-এমসি",
+        "pos": "PROPN"
+      },
+      {
+        "token": "সেক্রেটরি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ৱারোইশিন",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ৱার্নিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোঙদোকখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "মীয়ামদা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ড্রগ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পৈশা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "আপিল",
+        "pos": "NOUN"
+      },
+      {
+        "token": "তৌরক্লি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "কেসিপি-এমসি",
+        "text_en": "KCP-MC",
+        "label": "ORG"
+      },
+      {
+        "text": "লানহৈবা মৈতৈ",
+        "text_en": "Lanheiba Meitei",
+        "label": "PERSON"
+      },
+      {
+        "text": "কাউন্সিল",
+        "text_en": "Council",
+        "label": "ORG"
+      },
+      {
+        "text": "ইণ্ডিয়ান ফোর্সশিং",
+        "text_en": "Indian forces",
+        "label": "ORG"
+      },
+      {
+        "text": "রাসেশ্বরি",
+        "text_en": "Raseshwari",
+        "label": "PERSON"
+      },
+      {
+        "text": "বাবুপারা",
+        "text_en": "Babupura",
+        "label": "LOC"
+      },
+      {
+        "text": "রিমস",
+        "text_en": "RIMS",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ৱারোইশিন অমা লৈফম থোকই",
+        "trigger_en": "a statement/warning was issued",
+        "type": "PUBLIC_WARNING",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "লানহৈবা মৈতৈ",
+            "text_en": "Lanheiba Meitei"
+          },
+          {
+            "role": "ORG",
+            "text": "কেসিপি-এমসি",
+            "text_en": "KCP-MC"
+          },
+          {
+            "role": "TARGET",
+            "text": "মীয়াম",
+            "text_en": "the public"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "অহকপা চৈরাক পীগনি",
+        "trigger_en": "strict punishment will be imposed",
+        "type": "THREAT_OF_PUNISHMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "কাউন্সিল",
+            "text_en": "Council"
+          },
+          {
+            "role": "TARGET",
+            "text": "নমথাক তৌনবা কাঙলূপ",
+            "text_en": "groups trying to deceive or extort the public"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ফোঙদোকখি",
+        "trigger_en": "stated / explained",
+        "type": "PUBLIC_STATEMENT",
+        "arguments": [
+          {
+            "role": "TOPIC",
+            "text": "ড্রগ চাবা, নিশা চাবশিং, মোবাইল পৈশা",
+            "text_en": "drug abuse, intoxication, and illegal money collection through mobile transactions"
+          },
+          {
+            "role": "CONSEQUENCE",
+            "text": "লেপকদবনি",
+            "text_en": "must be stopped / curbed"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "শরুক য়ামিন্নগদবনি",
+        "trigger_en": "everyone must participate",
+        "type": "MASS_MOBILIZATION",
+        "arguments": [
+          {
+            "role": "CAUSE",
+            "text": "য়াওল ঈহৌ অমদি নীংতম লানহৌ ঈহৌ",
+            "text_en": "the people's movement and the national liberation cause"
+          },
+          {
+            "role": "GROUP",
+            "text": "জাতি ফুরুপ খুদিংমক",
+            "text_en": "all communities and ethnic groups"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "খুত্ থোক্নবা অমদি খুত্ থানবা",
+        "trigger_en": "surrender and restraint by Indian forces",
+        "type": "SECURITY_CRITIQUE",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "ইণ্ডিয়ান ফোর্সশিং",
+            "text_en": "Indian forces"
+          },
+          {
+            "role": "TOPIC",
+            "text": "হকথেংননা খুত্ থোক্নবা অমদি খুত্ থানবা",
+            "text_en": "laying down arms and showing restraint"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_6",
+        "trigger": "হেন্না কিহন্নবা হোত্নরিবা",
+        "trigger_en": "attempts to spread greater fear",
+        "type": "FEAR_CAMPAIGN",
+        "arguments": [
+          {
+            "role": "REFERENCE",
+            "text": "রাসেশ্বরি, বাবুপারা বোম ব্লাষ্ট, রিমসকি পোকখাইখিবা",
+            "text_en": "the Raseshwari incident, the Babupura bomb blast, and the RIMS explosion"
+          },
+          {
+            "role": "TARGET",
+            "text": "মীয়াম",
+            "text_en": "the public"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_7",
+        "trigger": "আপিল তৌরক্লি",
+        "trigger_en": "appeal was made",
+        "type": "PUBLIC_APPEAL",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "মীয়াম",
+            "text_en": "the public"
+          },
+          {
+            "role": "BENEFICIARY",
+            "text": "কেসিপি-এমসি",
+            "text_en": "KCP-MC"
+          },
+          {
+            "role": "OBJECT",
+            "text": "অঙম্বা মতেং",
+            "text_en": "moral and practical support"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "KCP-MC issued a public warning against extortion and other activities carried out in the name of the organization. The statement said that groups deceiving the public, including those linked to illegal money collection, drug-related activities, and intimidation, would face strict punishment. It also argued that the liberation movement belongs to the people and called on all communities to participate in it. Referring to incidents such as the Raseshwari case, the Babupura bomb blast, and the RIMS explosion, the group accused certain actors of trying to spread fear among the public. The organization appealed to the people to support its movement and to avoid being misled by false claims made in its name.",
+    "salience": [
+      {
+        "node": "public warning",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "KCP-MC",
+        "type": "ORG",
+        "score": 0.93
+      },
+      {
+        "node": "extortion threat",
+        "type": "EVENT",
+        "score": 0.91
+      },
+      {
+        "node": "public appeal",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "fear campaign",
+        "type": "EVENT",
+        "score": 0.86
+      }
+    ],
+    "manipuri_human_summary": "কেসিপি-এমসিনা মহাক্কী মিংদা নমথাক তৌবা, শেন ডিমান্ড তৌবা, ড্রগ অমদি অকিবা পোকহনবা থৌওংশিং য়ানিংদে হায়না তীব্র ৱারোইশিন পীরে। মীয়ামবু মিথ্যা মিং শীজিন্নবা কাঙলূপশিংদা অহকপা চৈরাক পীগনি হায়না ফোঙদোকখি। লোয়ননা মীয়ামবু মশাগী লৈরাংগা শরুক য়ামিন্নবা অমসুং মিথ্যা ৱাফমশিংদা মরুওইদবা হায়না আপিল তৌরক্লি।"
+  },
+  {
+    "doc_id": "MN_NEWS_005",
+    "headline": "ডিমাণ্ডগী মায়োক্তা ৱাকত্ মীফমশিং চত্থখ্রে",
+    "headline_en": "Protest meetings held against monetary demands",
+    "source_language": "Manipuri",
+    "domain": "Protest / Extortion / Public Action",
+    "location": "Thoubal District, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "থৌবাল ডিষ্ট্রিক্ট হোস্পিটাল মনাক্তা ফার্মাসিশিংদা লাক্ষ 10 গী শেনগী ডিমাণ্ড তৌরকখি"
+      },
+      {
+        "sid": 2,
+        "text": "ফার্মাসিশিং থোঙ লোল্লগা ৱাকত্ মীফম চত্থবা হৌখ্রে"
+      },
+      {
+        "sid": 3,
+        "text": "ডিমাণ্ড অসি মে 31 ফাওবগী মনুংদা পীনবা খঙহল্লকখি"
+      },
+      {
+        "sid": 4,
+        "text": "থৌবাল ডিষ্ট্রিক্ট কেমিষ্ট এণ্ড ড্রগিষ্ট এসোসিয়েসনগী মখাদা ৱাকত্ মীফম ফম্বা হৌখ্রে"
+      },
+      {
+        "sid": 5,
+        "text": "তাউবুংখোক এরিয়াদা চেক্কোনশিংদা য়াম্লবা শেনফমশিং ডিমাণ্ড তৌরকপগী মায়োক্তা ৱাকত্ মীফম চত্থখ্রে"
+      },
+      {
+        "sid": 6,
+        "text": "চেক্কোনশিং থবক লেপ্পদগী শিন্মীশিং অৱাবা ফীবম অমদা লৈরকখিবনি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "থৌবাল",
+        "pos": "PROPN"
+      },
+      {
+        "token": "ফার্মাসিশিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ডিমাণ্ড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লাক্ষ",
+        "pos": "NUM"
+      },
+      {
+        "token": "ৱাকত্",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মীফম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চত্থখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "চেক্কোনশিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "থবক",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লেপ্পদগী",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "থৌবাল ডিষ্ট্রিক্ট",
+        "text_en": "Thoubal District",
+        "label": "LOC"
+      },
+      {
+        "text": "থৌবাল ডিষ্ট্রিক্ট হোস্পিটাল",
+        "text_en": "Thoubal District Hospital",
+        "label": "ORG"
+      },
+      {
+        "text": "ফার্মাসিশিং",
+        "text_en": "Pharmacists",
+        "label": "GROUP"
+      },
+      {
+        "text": "থৌবাল ডিষ্ট্রিক্ট কেমিষ্ট এণ্ড ড্রগিষ্ট এসোসিয়েসন",
+        "text_en": "Thoubal District Chemist and Druggist Association",
+        "label": "ORG"
+      },
+      {
+        "text": "তাউবুংখোক",
+        "text_en": "Taubungkhok area",
+        "label": "LOC"
+      },
+      {
+        "text": "ইম্ফাল-জিরিবাম লম্বী",
+        "text_en": "Imphal-Jiribam road",
+        "label": "LOC"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "শেনগী ডিমাণ্ড তৌরকখি",
+        "trigger_en": "monetary demand was made",
+        "type": "EXTORTION_DEMAND",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "ফার্মাসিশিং",
+            "text_en": "pharmacists"
+          },
+          {
+            "role": "AMOUNT",
+            "text": "লাক্ষ 10",
+            "text_en": "10 lakh rupees"
+          },
+          {
+            "role": "LOC",
+            "text": "থৌবাল ডিষ্ট্রিক্ট হোস্পিটাল",
+            "text_en": "Thoubal District Hospital"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "ৱাকত্ মীফম চত্থখ্রে",
+        "trigger_en": "protest meeting was held",
+        "type": "PROTEST",
+        "arguments": [
+          {
+            "role": "PARTICIPANT",
+            "text": "ফার্মাসিশিং",
+            "text_en": "pharmacists"
+          },
+          {
+            "role": "ACTION",
+            "text": "থোঙ লোল্লগা",
+            "text_en": "closing shops"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ৱাকত্ মীফম ফম্বা",
+        "trigger_en": "protest gathering organized",
+        "type": "PROTEST",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "থৌবাল ডিষ্ট্রিক্ট কেমিষ্ট এণ্ড ড্রগিষ্ট এসোসিয়েসন",
+            "text_en": "Thoubal District Chemist and Druggist Association"
+          },
+          {
+            "role": "LOC",
+            "text": "থৌবাল ডিষ্ট্রিক্ট হোস্পিটাল",
+            "text_en": "Thoubal District Hospital"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ডিমাণ্ড তৌরকপগী মায়োক্তা ৱাকত্ মীফম চত্থখ্রে",
+        "trigger_en": "protests held against extortion demands",
+        "type": "PROTEST",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "তাউবুংখোক",
+            "text_en": "Taubungkhok area"
+          },
+          {
+            "role": "CAUSE",
+            "text": "শেনফমশিং ডিমাণ্ড",
+            "text_en": "illegal monetary demands"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "থবক লেপ্পদগী",
+        "trigger_en": "work was halted",
+        "type": "DISRUPTION",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "চেক্কোনশিং",
+            "text_en": "checkposts"
+          },
+          {
+            "role": "AFFECTED",
+            "text": "শিন্মীশিং",
+            "text_en": "workers / laborers"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Pharmacists in Thoubal District launched protest meetings after a demand for Rs. 10 lakh was allegedly made from them at Thoubal District Hospital. In response, pharmacies shut their shops and organized demonstrations under the Chemist and Druggist Association. Similar protests were also reported in the Taubungkhok area along the Imphal–Jiribam road, where workers opposed extortion demands at checkposts. The situation led to disruption of work activities, causing hardship to workers and the local public.",
+    "salience": [
+      {
+        "node": "extortion demand",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "protest meetings",
+        "type": "EVENT",
+        "score": 0.93
+      },
+      {
+        "node": "Thoubal District",
+        "type": "LOC",
+        "score": 0.91
+      },
+      {
+        "node": "pharmacists",
+        "type": "GROUP",
+        "score": 0.88
+      },
+      {
+        "node": "work disruption",
+        "type": "EVENT",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "থৌবাল ডিষ্ট্রিক্ট হোস্পিটালদা ফার্মাসিশিংদা লাক্ষ 10 গী শেন ডিমাণ্ড তৌরকখিবদগী মায়োক্তা ৱাকত্ মীফমশিং হৌখ্রে। ফার্মাসিশিংনা থোঙ লোল্লগা কেমিষ্ট এণ্ড ড্রগিষ্ট এসোসিয়েসনগী মখাদা প্রতিবাদ তৌখি। তাউবুংখোক এরিয়াদসু চেকোনশিংদা শেন ডিমান্ডগী মায়োক্তা প্রতিবাদ তৌখ্রগা থবক লেপ্লে।"
+  },
+  {
+    "doc_id": "MN_NEWS_006",
+    "headline": "মশা খঙহন্দনা শেন লৌথোকখিবগী ৱাকত্তেïরি",
+    "headline_en": "Complaint filed over misappropriation of housing scheme funds",
+    "source_language": "Manipuri",
+    "domain": "Corruption / Governance / Welfare Scheme",
+    "location": "Moirang, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "ইন্দিরা অৱাজ যোজনা স্কিমগী শেনফম মশা খঙহন্দনা উপ-প্রধাননা লৌথোক্লম্বগী ৱাকত্কদৌরি"
+      },
+      {
+        "sid": 2,
+        "text": "হ্যুমেন রাইটস লো নেটৱার্কনা মতেং পাংদুনা ভিজিলেন্স অমসুং পুলিসতা ৱাকত্কদৌরি"
+      },
+      {
+        "sid": 3,
+        "text": "মোইরাংথেম রঞ্জিত্না শেনফম অদু ফংগদবা ওইদে হায়না ফোঙদোকখি"
+      },
+      {
+        "sid": 4,
+        "text": "উপ-প্রধান উশা দেবীনা লুপা 9700 লৌথোক্লম্বা হায়না অভিযোগ তৌরকখি"
+      },
+      {
+        "sid": 5,
+        "text": "বিডিও অমসুং ডিসিদা ৱাকত্লবসু করিমতা তৌবীদ্রে"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "ইন্দিরা",
+        "pos": "PROPN"
+      },
+      {
+        "token": "যোজনা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "শেনফম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লৌথোকখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "উপ-প্রধান",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ভিজিলেন্স",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "অভিযোগ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "তৌরকখি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইন্দিরা অৱাজ যোজনা",
+        "text_en": "Indira Awaas Yojana",
+        "label": "SCHEME"
+      },
+      {
+        "text": "মোইরাংথেম রঞ্জিত",
+        "text_en": "Moirangthem Ranjit",
+        "label": "PERSON"
+      },
+      {
+        "text": "উশা দেবী",
+        "text_en": "Usha Devi",
+        "label": "PERSON"
+      },
+      {
+        "text": "হ্যুমেন রাইটস লো নেটৱার্ক",
+        "text_en": "Human Rights Law Network",
+        "label": "ORG"
+      },
+      {
+        "text": "ভিজিলেন্স",
+        "text_en": "Vigilance Department",
+        "label": "ORG"
+      },
+      {
+        "text": "পুলিস",
+        "text_en": "Police",
+        "label": "ORG"
+      },
+      {
+        "text": "মোইরাং",
+        "text_en": "Moirang",
+        "label": "LOC"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "শেন লৌথোক্লম্বা",
+        "trigger_en": "funds were misappropriated",
+        "type": "CORRUPTION",
+        "arguments": [
+          {
+            "role": "SCHEME",
+            "text": "ইন্দিরা অৱাজ যোজনা",
+            "text_en": "Indira Awaas Yojana"
+          },
+          {
+            "role": "ACCUSER",
+            "text": "মোইরাংথেম রঞ্জিত",
+            "text_en": "Moirangthem Ranjit"
+          },
+          {
+            "role": "ACCUSED",
+            "text": "উপ-প্রধান উশা দেবী",
+            "text_en": "Deputy Pradhan Usha Devi"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "ৱাকত্কদৌরি",
+        "trigger_en": "complaint was filed",
+        "type": "LEGAL_COMPLAINT",
+        "arguments": [
+          {
+            "role": "COMPLAINANT",
+            "text": "হ্যুমেন রাইটস লো নেটৱার্ক",
+            "text_en": "Human Rights Law Network"
+          },
+          {
+            "role": "TARGET",
+            "text": "ভিজিলেন্স অমসুং পুলিস",
+            "text_en": "Vigilance and Police"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "অভিযোগ তৌরকখি",
+        "trigger_en": "allegation was made",
+        "type": "ALLEGATION",
+        "arguments": [
+          {
+            "role": "ACCUSER",
+            "text": "মোইরাংথেম রঞ্জিত",
+            "text_en": "Moirangthem Ranjit"
+          },
+          {
+            "role": "ACCUSED",
+            "text": "উশা দেবী",
+            "text_en": "Usha Devi"
+          },
+          {
+            "role": "AMOUNT",
+            "text": "লুপা 9700",
+            "text_en": "Rs. 9,700"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ৱাকত্লবসু করিমতা তৌবীদ্রে",
+        "trigger_en": "no action was taken on complaint",
+        "type": "INACTION",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "বিডিও অমসুং ডিসি",
+            "text_en": "BDO and DC offices"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "A complaint has been filed alleging misappropriation of funds under the Indira Awaas Yojana housing scheme in Moirang. The beneficiary, Moirangthem Ranjit, claimed that he did not receive the allocated funds, while Deputy Pradhan Usha Devi allegedly withdrew Rs. 9,700 from the scheme. The Human Rights Law Network has supported the case and approached the Vigilance Department and police for investigation. Despite complaints being submitted to local administrative authorities such as the BDO and DC, no action has been taken so far.",
+    "salience": [
+      {
+        "node": "fund misappropriation",
+        "type": "EVENT",
+        "score": 0.94
+      },
+      {
+        "node": "Indira Awaas Yojana",
+        "type": "SCHEME",
+        "score": 0.91
+      },
+      {
+        "node": "legal complaint",
+        "type": "EVENT",
+        "score": 0.89
+      },
+      {
+        "node": "Moirang",
+        "type": "LOC",
+        "score": 0.86
+      },
+      {
+        "node": "Human Rights Law Network",
+        "type": "ORG",
+        "score": 0.84
+      }
+    ],
+    "manipuri_human_summary": "মোইরাংদা ইন্দিরা অৱাজ যোজনাগী শেনফম লৌথোক্লম্বা হায়না ৱাকত্ তৌরকখ্রে। মৈরাংথেম রঞ্জিত্না মহাক্কী শেন ফংগদবা ওইদে হায়রগা উপ-প্রধান উশা দেবীনা লুপা 9700 লৌথোক্লম্বা অভিযোগ পীরে। হ্যুমেন রাইটস লো নেটৱার্কনা ভিজিলেন্স অমসুং পুলিসতা শিন্নবসু বিডিও অমদি ডিসিদা হৌজিক ফাওবা করিমত্তা তৌবীদ্রে।"
+  },
+  {
+    "doc_id": "MN_NEWS_007",
+    "headline": "কেম্পেইন য়ুনিডেপকি মনুং চন্না লায়েংবগী কেম্প পাঙথোকখ্রে",
+    "headline_en": "Medical camps organized under UNIDEP campaign in border areas",
+    "source_language": "Manipuri",
+    "domain": "Healthcare / Social Welfare",
+    "location": "Kasom Khullen Sub-Division, Ukhrul, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "কেম্পেইন য়ুনিডেপ অমসুং টিএকেএলনা পুন্না ইণ্ডো-ম্যানমার বোর্ডর মনাক্তা লায়েংবগী কেম্প পাঙথোকখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "কেম্পশিং অদুদা পুন্না মীওই 1142 লায়েংখি অমসুং হিদাক পীখি"
+      },
+      {
+        "sid": 3,
+        "text": "ঐচআইভি এইডস টিবি মেলেরিয়া অমদি লেপ্রোসিগী মতাংদা ইনফোর্মেসন কেম্প চত্থখি"
+      },
+      {
+        "sid": 4,
+        "text": "অহানবা কেম্প কশুঙ বুংদুং বোর্ডর ভিল্লেজদা পাঙথোকখি"
+      },
+      {
+        "sid": 5,
+        "text": "অনীশুবা কেম্প কসোম খুল্লেন সাব-ডিবিজনদা পাঙথোকখি"
+      },
+      {
+        "sid": 6,
+        "text": "মেডিকেল ডিপার্টমেন্ট অমসুং পিএইচসি ষ্টাফশিং কেম্পশিংদা শরুক য়াখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "কেম্পেইন",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লায়েংবগী",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কেম্প",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পাঙথোকখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লায়েংখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "মেডিকেল",
+        "pos": "ADJ"
+      },
+      {
+        "token": "ডিপার্টমেন্ট",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "কেম্পেইন য়ুনিডেপ",
+        "text_en": "Campaign UNIDEP (Campaign for Unity, Development and Peace in Manipur)",
+        "label": "ORG"
+      },
+      {
+        "text": "টিএকেএল",
+        "text_en": "Tangkhul Aze Katamnao Long (TAKL)",
+        "label": "ORG"
+      },
+      {
+        "text": "কসোম খুল্লেন",
+        "text_en": "Kasom Khullen",
+        "label": "LOC"
+      },
+      {
+        "text": "উখ্রুল",
+        "text_en": "Ukhrul",
+        "label": "LOC"
+      },
+      {
+        "text": "ইণ্ডো-ম্যানমার বোর্ডর",
+        "text_en": "Indo-Myanmar border",
+        "label": "LOC"
+      },
+      {
+        "text": "কশুঙ বুংদুং",
+        "text_en": "Kashung Bungdung",
+        "label": "LOC"
+      },
+      {
+        "text": "মেডিকেল ডিপার্টমেন্ট",
+        "text_en": "Medical Department",
+        "label": "ORG"
+      },
+      {
+        "text": "স্টেট টিবি সেল",
+        "text_en": "State TB Cell",
+        "label": "ORG"
+      },
+      {
+        "text": "স্টেট মেলরিয়া অফিস",
+        "text_en": "State Malaria Office",
+        "label": "ORG"
+      },
+      {
+        "text": "স্টেট লেপ্রোসি সোসাইটি",
+        "text_en": "State Leprosy Society",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "লায়েংবগী কেম্প পাঙথোকখ্রে",
+        "trigger_en": "medical camps were organized",
+        "type": "MEDICAL_CAMP",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "কেম্পেইন য়ুনিডেপ",
+            "text_en": "UNIDEP Campaign"
+          },
+          {
+            "role": "ORG",
+            "text": "টিএকেএল",
+            "text_en": "TAKL"
+          },
+          {
+            "role": "LOC",
+            "text": "ইণ্ডো-ম্যানমার বোর্ডর",
+            "text_en": "Indo-Myanmar border"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "মীওই 1142 লায়েংখি",
+        "trigger_en": "1142 people received treatment",
+        "type": "MEDICAL_TREATMENT",
+        "arguments": [
+          {
+            "role": "BENEFICIARY",
+            "text": "মীওই 1142",
+            "text_en": "1142 people"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ইনফোর্মেসন কেম্প চত্থখি",
+        "trigger_en": "awareness campaigns conducted",
+        "type": "AWARENESS_CAMPAIGN",
+        "arguments": [
+          {
+            "role": "TOPIC",
+            "text": "ঐচআইভি এইডস, টিবি, মেলেরিয়া, লেপ্রোসি",
+            "text_en": "HIV/AIDS, TB, Malaria, Leprosy"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "কেম্প পাঙথোকখি",
+        "trigger_en": "camp conducted",
+        "type": "MEDICAL_CAMP",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "কশুঙ বুংদুং",
+            "text_en": "Kashung Bungdung village"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "কেম্প পাঙথোকখি",
+        "trigger_en": "camp conducted",
+        "type": "MEDICAL_CAMP",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "কসোম খুল্লেন",
+            "text_en": "Kasom Khullen sub-division"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Medical camps were organized under the UNIDEP campaign in collaboration with TAKL in remote villages along the Indo-Myanmar border in Ukhrul district. A total of 1,142 people received medical treatment and free medicines. Awareness campaigns were also conducted on diseases such as HIV/AIDS, tuberculosis, malaria, and leprosy. The camps were held in villages including Kashung Bungdung and Kasom Khullen sub-division, with participation from medical departments and public health organizations. The initiative aimed to address healthcare challenges in remote border areas with limited access to medical facilities.",
+    "salience": [
+      {
+        "node": "medical camps",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "UNIDEP campaign",
+        "type": "ORG",
+        "score": 0.91
+      },
+      {
+        "node": "Indo-Myanmar border",
+        "type": "LOC",
+        "score": 0.89
+      },
+      {
+        "node": "1142 people treated",
+        "type": "EVENT",
+        "score": 0.87
+      },
+      {
+        "node": "health awareness campaigns",
+        "type": "EVENT",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "উখ্রুলগী ইণ্ডো-ম্যানমার বোর্ডর মনাক্তা য়ুনিডেপ অমসুং টিএকেএলনা লায়েংবগী কেম্পশিং পাঙথোকখ্রে। কেম্প অদুদা মীওই 1142 লায়েংখি অমসুং হিদাক পীখি। ঐচআইভি/এইডস, টিবি, মেলেরিয়া অমদি লেপ্রোসিগী মতাংদসু ইনফর্মেসন কেম্প চত্থখি, মসিনা দূরদুরগী খুনশিংদা লায়েংশঙ ফংদবা অৱাবা খুদোংচাব ফংহননবা হোত্নবনি।"
+  },
+  {
+    "doc_id": "MN_NEWS_008",
+    "headline": "হাত্লম্বা অনী , ঈশিংদগী ফংবা অমা মশক খঙখ্রে",
+    "headline_en": "Two murder victims and one unidentified body found in river identified",
+    "source_language": "Manipuri",
+    "domain": "Crime / Investigation",
+    "location": "Imphal & surrounding areas, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "হাত্লম্বা মীওই অনী অদু মশক মমিং খঙখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "অমদু ঙাঙোম বিকি 26 উরিপোক তৌরাংবম লৈকায়দগী ওই"
+      },
+      {
+        "sid": 3,
+        "text": "মহাক 2001 দা কেৱাই-কেএলগা মরম লৈরগা আর্মিনা ফারুরে"
+      },
+      {
+        "sid": 4,
+        "text": "মশক খঙদবা মীওই অনীনা মহাকপু কারদা লাকপা ফিজম শেত্পা ফাখিবনি"
+      },
+      {
+        "sid": 5,
+        "text": "অতোপ্পা মৃতদেহ অদু হৈস্নাম সোমোকান্তা ওইনা শনাক্ত তৌখ্রে"
+      },
+      {
+        "sid": 6,
+        "text": "অমা ইম্ফাল তুরেলদা ফংবা মৃতদেহ পোষ্ট মোর্টেম তৌখ্রে"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "হাত্লম্বা",
+        "pos": "VERB"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মশক",
+        "pos": "NOUN"
+      },
+      {
+        "token": "খঙখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "কার",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফাখিবনি",
+        "pos": "VERB"
+      },
+      {
+        "token": "তুরেল",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পোষ্ট মোর্টেম",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ঙাঙোম বিকি",
+        "text_en": "Ngamom Vicky",
+        "label": "PERSON"
+      },
+      {
+        "text": "হৈস্নাম সোমোকান্তা",
+        "text_en": "Heisnam Somokanta",
+        "label": "PERSON"
+      },
+      {
+        "text": "উরিপোক তৌরাংবম লৈকায়",
+        "text_en": "Uripok Tourangbam Leikai",
+        "label": "LOC"
+      },
+      {
+        "text": "ইম্ফাল তুরেল",
+        "text_en": "Imphal River",
+        "label": "LOC"
+      },
+      {
+        "text": "রিমস",
+        "text_en": "RIMS Hospital",
+        "label": "ORG"
+      },
+      {
+        "text": "কেৱাই-কেএল",
+        "text_en": "KYKL (Kanglei Yawol Kanna Lup)",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "হাত্লম্বা",
+        "trigger_en": "murder",
+        "type": "KILLING",
+        "arguments": [
+          {
+            "role": "VICTIM",
+            "text": "ঙাঙোম বিকি",
+            "text_en": "Ngamom Vicky"
+          },
+          {
+            "role": "VICTIM",
+            "text": "হৈস্নাম সোমোকান্তা",
+            "text_en": "Heisnam Somokanta"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "মশক খঙখ্রে",
+        "trigger_en": "identity established",
+        "type": "IDENTIFICATION",
+        "arguments": [
+          {
+            "role": "VICTIM",
+            "text": "মৃতদেহসমূহ",
+            "text_en": "victims"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ফাখিবনি",
+        "trigger_en": "abducted and killed",
+        "type": "ABDUCTION_KILLING",
+        "arguments": [
+          {
+            "role": "VICTIM",
+            "text": "ঙাঙোম বিকি",
+            "text_en": "Ngamom Vicky"
+          },
+          {
+            "role": "INSTRUMENT",
+            "text": "কার",
+            "text_en": "car"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ঈশিংদগী ফংবা",
+        "trigger_en": "body recovered from river",
+        "type": "BODY_RECOVERY",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "ইম্ফাল তুরেল",
+            "text_en": "Imphal River"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "পোষ্ট মোর্টেম তৌখ্রে",
+        "trigger_en": "postmortem conducted",
+        "type": "MEDICAL_EXAMINATION",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "রিমস",
+            "text_en": "RIMS Hospital"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Authorities have identified two murder victims and one body recovered from the Imphal River in Manipur. One of the deceased, Ngamom Vicky (26) from Uripok, was allegedly abducted in a car and killed by unidentified individuals. Another victim was identified as Heisnam Somokanta. A separate body recovered from the Imphal River was also subjected to postmortem examination at RIMS Hospital. The incidents are under investigation, with police working to determine the circumstances surrounding the killings.",
+    "salience": [
+      {
+        "node": "murders",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "victim identification",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "Imphal River",
+        "type": "LOC",
+        "score": 0.89
+      },
+      {
+        "node": "Ngamom Vicky",
+        "type": "PERSON",
+        "score": 0.87
+      },
+      {
+        "node": "RIMS Hospital",
+        "type": "ORG",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "ইম্ফাল তুরেলদগী ফংবা মৃতদেহ অমসুং হাত্লম্বা মীওই অনীগী মশক খঙখ্রে। ঙাঙোম বিকি বু মশক খঙদবা মীওইশিংনা কারদা পুরগা হাত্লম্বা হায়রি, অমরোমদা হৈস্নাম সোমোকান্তাসু শনাক্ত তৌখ্রে। ইম্ফাল তুরেলদগী ফংবা অতোপ্পা হকচাং অদুগী পোষ্টমর্টেমসু রিমসতা তৌখ্রে।"
+  },
+  {
+    "doc_id": "MN_NEWS_009",
+    "headline": "মরম চাদবা ইন্টর্ভিয়ুনি : মুসু",
+    "headline_en": "MUSU calls MPSC interview process unjustified",
+    "source_language": "Manipuri",
+    "domain": "Education / Recruitment / Governance",
+    "location": "Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "এমপিএসসিনা গবর্ণমেন্ট কলেজগী অৱাত্পা ওজাশিং মেনশিন্নবা ইন্টর্ভিয়ু চত্থরিবা অসি মুসুনা তরাম্না ওকই"
+      },
+      {
+        "sid": 2,
+        "text": "ইন্টর্ভিয়ু অসিদা আরআর শুহৌদ্রবা মীওইশিংসু য়াওবা য়ানবা শীল্লিবা থৌওং লৈরে"
+      },
+      {
+        "sid": 3,
+        "text": "মণিপুরদা কলেজশিংদা সবজেক্ট 17 গী ওজা 186 দরকার লৈরে"
+      },
+      {
+        "sid": 4,
+        "text": "এমপিএসসিনা 2006 দা নোটিস থোক্তুনা কেণ্ডিডেটশিংদা ফোর্ম থাজিনবা য়াহনখি"
+      },
+      {
+        "sid": 5,
+        "text": "মতুংদা ওজা সংখ্যা 172 তা খনবদা কোরিজেন্ডাম থোক্লে"
+      },
+      {
+        "sid": 6,
+        "text": "মুসুনা ইন্টর্ভিয়ু অসি মরম চাদবা তৌফম থোক্তবা হায়না লৌই"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "এমপিএসসি",
+        "pos": "PROPN"
+      },
+      {
+        "token": "ইন্টর্ভিয়ু",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ওজা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "নোটিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কেণ্ডিডেট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লৌই",
+        "pos": "VERB"
+      },
+      {
+        "token": "খন্নবা",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "এমপিএসসি",
+        "text_en": "Manipur Public Service Commission (MPSC)",
+        "label": "ORG"
+      },
+      {
+        "text": "মুসু",
+        "text_en": "Manipur University Students' Union (MUSU)",
+        "label": "ORG"
+      },
+      {
+        "text": "ইউজিসি",
+        "text_en": "University Grants Commission (UGC)",
+        "label": "ORG"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "গবর্ণমেন্ট কলেজ",
+        "text_en": "Government Colleges",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ইন্টর্ভিয়ু চত্থরিবা",
+        "trigger_en": "interviews conducted",
+        "type": "RECRUITMENT_PROCESS",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "এমপিএসসি",
+            "text_en": "MPSC"
+          },
+          {
+            "role": "POSITION",
+            "text": "ওজা",
+            "text_en": "college lecturers"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "নোটিস থোক্তুনা",
+        "trigger_en": "notification issued",
+        "type": "ANNOUNCEMENT",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "এমপিএসসি",
+            "text_en": "MPSC"
+          },
+          {
+            "role": "TIME",
+            "text": "2006",
+            "text_en": "year 2006"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "কোরিজেন্ডাম থোক্লে",
+        "trigger_en": "corrigendum issued",
+        "type": "POLICY_CHANGE",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "এমপিএসসি",
+            "text_en": "MPSC"
+          },
+          {
+            "role": "CHANGE",
+            "text": "186 থেকে 172",
+            "text_en": "reduction from 186 to 172 posts"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "মরম চাদবা তৌফম থোক্তবা",
+        "trigger_en": "declared unjustified",
+        "type": "PROTEST_STATEMENT",
+        "arguments": [
+          {
+            "role": "ORG",
+            "text": "মুসু",
+            "text_en": "MUSU"
+          },
+          {
+            "role": "TARGET",
+            "text": "ইন্টর্ভিয়ু প্রক্রিয়া",
+            "text_en": "interview process"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "The Manipur University Students' Union (MUSU) has criticized the ongoing interview process conducted by the Manipur Public Service Commission (MPSC) for recruiting lecturers in government colleges, calling it unjustified. MUSU alleged that candidates who do not meet the University Grants Commission (UGC) eligibility criteria were allowed to participate. Initially, MPSC announced 186 lecturer positions across 17 subjects in 2006, but later reduced the number to 172 through a corrigendum. MUSU expressed concern over the lack of transparency and fairness in the recruitment process and urged corrective measures.",
+    "salience": [
+      {
+        "node": "MPSC interviews",
+        "type": "EVENT",
+        "score": 0.94
+      },
+      {
+        "node": "MUSU protest",
+        "type": "EVENT",
+        "score": 0.91
+      },
+      {
+        "node": "lecturer recruitment",
+        "type": "EVENT",
+        "score": 0.89
+      },
+      {
+        "node": "MPSC",
+        "type": "ORG",
+        "score": 0.87
+      },
+      {
+        "node": "UGC guidelines",
+        "type": "ORG",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "মুসুনা গবর্ণমেন্ট কলেজগী ওজাশিং মেনশিন্নবা এমপিএসসিগী ইন্টর্ভিয়ু প্রক্রিয়া অসি মরম চাদবা হায়না কড়া ৱারোইশিন পীরে। ইউজিসি আরআর পুংদ্রবা কেণ্ডিডেটশিংসু য়াওহনখিবগা অমদি 186 পোষ্ট অদু 172 তা কম্মীখিবগী মতাংদা মুসুনা অফ-নুংঙাই ফোঙদোকখি। রিক্রুটমেন্টদা শেংনা ময়েকশিনব অমদি অফবা মওং চত্পা দরকার ওই হায়রি।"
+  },
+  {
+    "doc_id": "MN_NEWS_010",
+    "headline": "আইএমগী মীওই মরী কেদা য়াওখ্রে",
+    "headline_en": "Four NSCN (IM) members join NSCN (K) faction",
+    "source_language": "Manipuri",
+    "domain": "Insurgency / Militancy",
+    "location": "Dimapur & Northeast India",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "এনএসসিএন (আইএম) গী মরী মীওই এনএসসিএন (কে) জেলিয়াংরোং রিজনদা য়াওখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "মখোয় নাগালেণ্ড অমসুং আসামদগী ওই"
+      },
+      {
+        "sid": 3,
+        "text": "অকিসে, তুকম, ইন্তাং অমসুং এলেক্স মমিং লৈ"
+      },
+      {
+        "sid": 4,
+        "text": "মখোয় মরীনা রাইফল অমসুং খুত্লায়শিং লোয়নরকখি"
+      },
+      {
+        "sid": 5,
+        "text": "মখোয় জেলিয়াংরোং ইন্টরেষ্টতা থবক তৌরিবা মেইনষ্ট্রিম আউটফিটতা য়াওরকপনি হায়খি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "এনএসসিএন",
+        "pos": "PROPN"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মরী",
+        "pos": "NUM"
+      },
+      {
+        "token": "রাইফল",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লোয়নরকখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "থবক",
+        "pos": "NOUN"
+      },
+      {
+        "token": "য়াওখ্রে",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "এনএসসিএন (আইএম)",
+        "text_en": "NSCN (IM)",
+        "label": "ORG"
+      },
+      {
+        "text": "এনএসসিএন (কে)",
+        "text_en": "NSCN (K)",
+        "label": "ORG"
+      },
+      {
+        "text": "জেলিয়াংরোং",
+        "text_en": "Zeliangrong region",
+        "label": "LOC"
+      },
+      {
+        "text": "ডিমাপুর",
+        "text_en": "Dimapur",
+        "label": "LOC"
+      },
+      {
+        "text": "নাগালেণ্ড",
+        "text_en": "Nagaland",
+        "label": "LOC"
+      },
+      {
+        "text": "নোর্ঠ কাছার হিলস",
+        "text_en": "North Cachar Hills",
+        "label": "LOC"
+      },
+      {
+        "text": "অকিসে",
+        "text_en": "Akise",
+        "label": "PERSON"
+      },
+      {
+        "text": "তুকম",
+        "text_en": "Tukam",
+        "label": "PERSON"
+      },
+      {
+        "text": "ইন্তাং",
+        "text_en": "Intang",
+        "label": "PERSON"
+      },
+      {
+        "text": "এলেক্স",
+        "text_en": "Alex",
+        "label": "PERSON"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "য়াওখ্রে",
+        "trigger_en": "joined",
+        "type": "DEFECTION",
+        "arguments": [
+          {
+            "role": "FROM",
+            "text": "এনএসসিএন (আইএম)",
+            "text_en": "NSCN (IM)"
+          },
+          {
+            "role": "TO",
+            "text": "এনএসসিএন (কে)",
+            "text_en": "NSCN (K)"
+          },
+          {
+            "role": "COUNT",
+            "text": "মরী",
+            "text_en": "four members"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "খুত্লায়শিং লোয়নরকখি",
+        "trigger_en": "weapons surrendered",
+        "type": "WEAPON_TRANSFER",
+        "arguments": [
+          {
+            "role": "ITEM",
+            "text": "রাইফল অমসুং মেগজিন",
+            "text_en": "rifles and magazines"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "থবক তৌরিবা",
+        "trigger_en": "engaging in activities",
+        "type": "ALIGNMENT",
+        "arguments": [
+          {
+            "role": "GROUP",
+            "text": "জেলিয়াংরোং",
+            "text_en": "Zeliangrong community"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Four members of the NSCN (IM) faction have defected to the NSCN (K) Zeliangrong region. The individuals, identified as Akise, Tukam, Intang, and Alex, are from Nagaland and Assam. They reportedly surrendered multiple weapons, including rifles and ammunition. The members stated that they joined the NSCN (K) faction to work for the interests of the Zeliangrong community and align with what they described as a more suitable mainstream outfit.",
+    "salience": [
+      {
+        "node": "defection",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "NSCN (IM)",
+        "type": "ORG",
+        "score": 0.91
+      },
+      {
+        "node": "NSCN (K)",
+        "type": "ORG",
+        "score": 0.9
+      },
+      {
+        "node": "weapons surrender",
+        "type": "EVENT",
+        "score": 0.87
+      },
+      {
+        "node": "Zeliangrong region",
+        "type": "LOC",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "এনএসসিএন (আইএম) গী মীওই মরী এনএসসিএন (কে) জেলিয়াংরোং রিজনদা য়াওখ্রে। অকিসে, তুকম, ইন্তাং অমসুং এলেক্স হায়বা মখোয় মরীনা রাইফল অমসুং খুত্লায়শিং লোয়নরকখি। জেলিয়াংরোং কম্মুনিটিগী ইন্টরেষ্টগীদমক থবক তৌনবা মখোয় এনএসসিএন (কে) দা য়াওরকপনি হায়রি।"
+  },
+  {
+    "doc_id": "MN_NEWS_011",
+    "headline": "সেক্যুরিটি ফোর্সনা য়ুজি তরুক ফারে",
+    "headline_en": "Security forces arrest six underground cadres",
+    "source_language": "Manipuri",
+    "domain": "Security / Insurgency",
+    "location": "Imphal East & West, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "ইম্ফাল ৱেষ্ট ডিষ্ট্রিক্ট পুলিস কম্মাণ্ডোনা লম্ফেল রিমস ক্রসিংদগী মীওই অমা ফারে"
+      },
+      {
+        "sid": 2,
+        "text": "ইম্ফাল ইষ্ট টিমনা এনপিসিএমগী মীওই অমা চেকোন ত্রাইবেল কলোনিদগী ফাগত্খি"
+      },
+      {
+        "sid": 3,
+        "text": "অদুগী মঙোন্দা হেণ্ড গ্রেনেড অমা ফাংই"
+      },
+      {
+        "sid": 4,
+        "text": "অমুক মীওই অমা থাংমৈবন্দদা ফাগত্খি"
+      },
+      {
+        "sid": 5,
+        "text": "অদুগী মঙোন্দা পিস্তল অমসুং মেগজিন ফাংই"
+      },
+      {
+        "sid": 6,
+        "text": "অপুনবা টিমনা এনপিসিএমগী কাডর অহুম লম্লোং বজারদগী ফাগত্খি"
+      },
+      {
+        "sid": 7,
+        "text": "মখোয়দগী হেণ্ড গ্রেনেড অমসুং ডিমাণ্ড লেটার ফাংই"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "সেক্যুরিটি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোর্সনা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফারে",
+        "pos": "VERB"
+      },
+      {
+        "token": "হেণ্ড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "গ্রেনেড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পিস্তল",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল ৱেষ্ট",
+        "text_en": "Imphal West",
+        "label": "LOC"
+      },
+      {
+        "text": "ইম্ফাল ইষ্ট",
+        "text_en": "Imphal East",
+        "label": "LOC"
+      },
+      {
+        "text": "এনপিসিএম",
+        "text_en": "NPCM (Naga People's Council of Manipur)",
+        "label": "ORG"
+      },
+      {
+        "text": "লম্ফেল",
+        "text_en": "Lamphel",
+        "label": "LOC"
+      },
+      {
+        "text": "রিমস",
+        "text_en": "RIMS (Regional Institute of Medical Sciences)",
+        "label": "LOC"
+      },
+      {
+        "text": "লম্লোং বজার",
+        "text_en": "Lamlom Bazaar",
+        "label": "LOC"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ফারে",
+        "trigger_en": "arrested",
+        "type": "ARREST",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "সেক্যুরিটি ফোর্স",
+            "text_en": "security forces"
+          },
+          {
+            "role": "COUNT",
+            "text": "তরুক",
+            "text_en": "six persons"
+          },
+          {
+            "role": "LOC",
+            "text": "ইম্ফাল",
+            "text_en": "Imphal"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "ফাংই",
+        "trigger_en": "recovered",
+        "type": "WEAPON_RECOVERY",
+        "arguments": [
+          {
+            "role": "ITEM",
+            "text": "হেণ্ড গ্রেনেড",
+            "text_en": "hand grenade"
+          },
+          {
+            "role": "ITEM",
+            "text": "পিস্তল অমসুং মেগজিন",
+            "text_en": "pistol and magazines"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ফাগত্খি",
+        "trigger_en": "captured",
+        "type": "CAPTURE",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "এনপিসিএম কাডর",
+            "text_en": "NPCM cadres"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Security forces arrested six underground cadres in multiple operations across Imphal East and West districts. The arrests included members of the NPCM group from different locations such as Lamphel, Checkon, and Lamlom Bazaar. During the operations, security personnel recovered weapons including hand grenades, pistols, magazines, and demand letters. The coordinated action involved police commandos and Assam Rifles units, highlighting ongoing counter-insurgency efforts in the region.",
+    "salience": [
+      {
+        "node": "arrest operation",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "weapon recovery",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "NPCM",
+        "type": "ORG",
+        "score": 0.9
+      },
+      {
+        "node": "Imphal",
+        "type": "LOC",
+        "score": 0.88
+      }
+    ],
+    "manipuri_human_summary": "ইম্ফাল ইষ্ট অমসুং ৱেষ্ট ডিষ্ট্রিক্টতা সেক্যুরিটি ফোর্সনা অপারেশন কয়া চত্থদুনা য়ুজি কাডর তরুক ফাখ্রে। লম্ফেল, চেকোন, থাংমৈবন্দ অমসুং লম্লোং বজারগী মফমশিংদা এনপিসিএমগী মীওইশিং ফাগত্খিবগা লোয়ননা হেণ্ড গ্রেনেড, পিস্তল, মেগজিন অমদি ডিমাণ্ড লেটারশিংসু ফাংই।"
+  },
+  {
+    "doc_id": "MN_NEWS_012",
+    "headline": "চঙজরক্নবা খঙহল্লি",
+    "headline_en": "Warning issued against defections and multiple incidents reported",
+    "source_language": "Manipuri",
+    "domain": "Politics / Security / Civil unrest",
+    "location": "Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "পার্টিনা চঙজরক্তবা মীওইশিংদা অহকপা চৈরাক পীগনি হায়না ৱার্নিং তৌরক্লি"
+      },
+      {
+        "sid": 2,
+        "text": "চীংমৈরোংদা বোম পোকখায়বা অমনা মীওই অমা শোকখি"
+      },
+      {
+        "sid": 3,
+        "text": "দুকানশিং অমাঙ-অতা থোকখ্রে"
+      },
+      {
+        "sid": 4,
+        "text": "লিলোং এরিয়াদা ৱাকত্ মীফম চত্থখ্রে"
+      },
+      {
+        "sid": 5,
+        "text": "কংগ্রেস প্রেসিডেন্টনা ওìপ্পাজিসনগী রোল মরম শেংদোকখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "পার্টি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চঙজরক্তবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "বোম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পোকখায়বা",
+        "pos": "VERB"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ৱাকত্",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মীফম",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "চীংমৈরোং",
+        "text_en": "Chingmeirong",
+        "label": "LOC"
+      },
+      {
+        "text": "লিলোং",
+        "text_en": "Lilong",
+        "label": "LOC"
+      },
+      {
+        "text": "কংগ্রেস",
+        "text_en": "Indian National Congress",
+        "label": "ORG"
+      },
+      {
+        "text": "এসপিএফ",
+        "text_en": "SPF Government",
+        "label": "ORG"
+      },
+      {
+        "text": "জেএসি",
+        "text_en": "Joint Action Committee (JAC)",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ৱার্নিং তৌরক্লি",
+        "trigger_en": "issued warning",
+        "type": "WARNING",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পার্টি",
+            "text_en": "political party"
+          },
+          {
+            "role": "TARGET",
+            "text": "চঙজরক্তবা মীওইশিং",
+            "text_en": "defectors"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "বোম পোকখায়বা",
+        "trigger_en": "bomb explosion",
+        "type": "EXPLOSION",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "চীংমৈরোং",
+            "text_en": "Chingmeirong"
+          },
+          {
+            "role": "CASUALTY",
+            "text": "মীওই অমা শোকখি",
+            "text_en": "one person injured"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "অমাঙ-অতা থোকখ্রে",
+        "trigger_en": "damage occurred",
+        "type": "PROPERTY_DAMAGE",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "দুকানশিং",
+            "text_en": "shops"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ৱাকত্ মীফম চত্থখ্রে",
+        "trigger_en": "protest meeting held",
+        "type": "PROTEST",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "লিলোং",
+            "text_en": "Lilong"
+          },
+          {
+            "role": "PARTICIPANT",
+            "text": "প্রজাশিং",
+            "text_en": "public"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "মরম শেংদোকখি",
+        "trigger_en": "explained / clarified",
+        "type": "POLITICAL_STATEMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "কংগ্রেস প্রেসিডেন্ট",
+            "text_en": "Congress President"
+          },
+          {
+            "role": "TOPIC",
+            "text": "ওìপ্পাজিসনগী রোল",
+            "text_en": "role of opposition"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "A political party issued warnings against members attempting to defect, stating that strict action would be taken. Meanwhile, a bomb explosion in Chingmeirong injured one person and caused damage to several shops. Public protest meetings were also held in Lilong regarding security and public concerns. In a separate political development, the Congress leadership emphasized the importance of opposition in a democratic system, criticizing the functioning of the government and calling for accountability.",
+    "salience": [
+      {
+        "node": "bomb explosion",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "political warning",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "protest meeting",
+        "type": "EVENT",
+        "score": 0.9
+      },
+      {
+        "node": "Congress",
+        "type": "ORG",
+        "score": 0.88
+      },
+      {
+        "node": "Chingmeirong",
+        "type": "LOC",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "অমা অমা পার্টি অমনা চঙজরক্তবা মীওইশিংদা অহকপা চৈরাক পীগনি হায়না ৱার্নিং তৌরক্লি। অমরোমদা চীংমৈরোংদা বোম পোকখায়বা অমনা মীওই অমা শোকখি অমসুং দুকান খরা অমাঙ-অতা ওইখি। লিলোংদসু ৱাকত্ মীফম চত্থখ্রগা কংগ্রেসনা ডেমোক্রেসিতা অপোজিসনগী মরুওই ফোঙদোকখি।"
+  },
+  {
+    "doc_id": "MN_NEWS_015",
+    "headline": "বর্মা চত্লুবগী মরম শেংদোক্কদবনি হায়খি",
+    "source_language": "Manipuri",
+    "location": "Heirok, Manipur",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "জেএসিগী ভাইস প্রসিডেন্ট এল থম্মোইনা বর্মাদা চত্লুবগী ৱাফম মীয়ামদা শেংদোকখি"
+      },
+      {
+        "sid": 2,
+        "text": "জেএসিগী মীওইশিংবু বর্মাদা কৌরকপনি হায়খি"
+      },
+      {
+        "sid": 3,
+        "text": "লানহৌবশিংনা জেএসিগী মায়কৈদা চাপ পীবা চেষ্টা তৌরকপদগী বর্মাদা চত্লুবনি হায়খি"
+      },
+      {
+        "sid": 4,
+        "text": "জেএসিগী টেলিফোন নম্বর লানহৌবশিংদা পায়রম্বা অমদি তেংনৌপলদা সিফাইনা নজরদারি লৈরম্মী"
+      },
+      {
+        "sid": 5,
+        "text": "জেএসিগী মরক্তা সিআইডি লৈরে হায়বনি হায়না ফোঙদোকখি"
+      },
+      {
+        "sid": 6,
+        "text": "গবর্ণমেন্টতা এসপিও অমসুং প্রোটেক্সন ফোর্স থম্নবা হায়জবা অমদি কাউন্টার ইন্সর্জেন্সি অপারেশনদা শীজিন্নরকপা বিরোধ তৌখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "জেএসিগী",
+        "pos": "PROPN"
+      },
+      {
+        "token": "ভাইস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "প্রসিডেন্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "এল",
+        "pos": "PROPN"
+      },
+      {
+        "token": "থম্মোইনা",
+        "pos": "PROPN"
+      },
+      {
+        "token": "বর্মাদা",
+        "pos": "PROPN"
+      },
+      {
+        "token": "চত্লুবগী",
+        "pos": "VERB"
+      },
+      {
+        "token": "ৱাফম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মীয়ামদা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "শেংদোকখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "মীওইশিংবু",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কৌরকপনি",
+        "pos": "VERB"
+      },
+      {
+        "token": "লানহৌবশিংনা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মায়কৈদা",
+        "pos": "ADP"
+      },
+      {
+        "token": "চাপ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পীবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "চেষ্টা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "তৌরকপদগী",
+        "pos": "VERB"
+      },
+      {
+        "token": "টেলিফোন",
+        "pos": "NOUN"
+      },
+      {
+        "token": "নম্বর",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পায়রম্বা",
+        "pos": "VERB"
+      },
+      {
+        "token": "তেংনৌপলদা",
+        "pos": "PROPN"
+      },
+      {
+        "token": "সিফাইনা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "নজরদারি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লৈরম্মী",
+        "pos": "VERB"
+      },
+      {
+        "token": "মরক্তা",
+        "pos": "ADP"
+      },
+      {
+        "token": "সিআইডি",
+        "pos": "PROPN"
+      },
+      {
+        "token": "লৈরে",
+        "pos": "VERB"
+      },
+      {
+        "token": "গবর্ণমেন্টতা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "এসপিও",
+        "pos": "PROPN"
+      },
+      {
+        "token": "প্রোটেক্সন",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোর্স",
+        "pos": "NOUN"
+      },
+      {
+        "token": "থম্নবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "হায়জবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "কাউন্টার",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ইন্সর্জেন্সি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "অপারেশনদা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "শীজিন্নরকপা",
+        "pos": "VERB"
+      },
+      {
+        "token": "বিরোধ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "তৌখি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "জেএসি",
+        "text_en": "JAC (Joint Action Committee)",
+        "label": "ORG"
+      },
+      {
+        "text": "এল থম্মোই",
+        "text_en": "L. Thammei",
+        "label": "PERSON"
+      },
+      {
+        "text": "বর্মা",
+        "text_en": "Myanmar (Burma)",
+        "label": "LOC"
+      },
+      {
+        "text": "হৈরোক",
+        "text_en": "Heirok",
+        "label": "LOC"
+      },
+      {
+        "text": "সিআইডি",
+        "text_en": "CID (Criminal Investigation Department)",
+        "label": "ORG"
+      },
+      {
+        "text": "গবর্ণমেন্ট",
+        "text_en": "Government",
+        "label": "ORG"
+      },
+      {
+        "text": "এসপিও",
+        "text_en": "SPO (Special Police Officer)",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "শেংদোকখি",
+        "trigger_en": "clarified / explained",
+        "type": "PUBLIC_STATEMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "এল থম্মোই",
+            "text_en": "L. Thammei"
+          },
+          {
+            "role": "ORG",
+            "text": "জেএসি",
+            "text_en": "JAC"
+          },
+          {
+            "role": "TOPIC",
+            "text": "বর্মাদা চত্লুবা",
+            "text_en": "movement to Myanmar"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "বর্মাদা চত্লুবনি",
+        "trigger_en": "travelled to Myanmar",
+        "type": "CROSS_BORDER_MOVEMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "জেএসি সদস্য",
+            "text_en": "JAC members"
+          },
+          {
+            "role": "DESTINATION",
+            "text": "বর্মা",
+            "text_en": "Myanmar"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "চাপ পীবা চেষ্টা",
+        "trigger_en": "attempted coercion",
+        "type": "THREAT_INTIMIDATION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "লানহৌবশিং",
+            "text_en": "insurgent groups"
+          },
+          {
+            "role": "TARGET",
+            "text": "জেএসি",
+            "text_en": "JAC"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "নজরদারি লৈরম্মী",
+        "trigger_en": "under surveillance",
+        "type": "SURVEILLANCE",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "সিফাই",
+            "text_en": "security forces"
+          },
+          {
+            "role": "TARGET",
+            "text": "জেএসি",
+            "text_en": "JAC"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "এসপিও থম্নবা হায়জবা",
+        "trigger_en": "requested SPO deployment",
+        "type": "SECURITY_REQUEST",
+        "arguments": [
+          {
+            "role": "REQUESTER",
+            "text": "জেএসি",
+            "text_en": "JAC"
+          },
+          {
+            "role": "TARGET",
+            "text": "গবর্ণমেন্ট",
+            "text_en": "Government"
+          },
+          {
+            "role": "OBJECT",
+            "text": "এসপিও / প্রোটেক্সন ফোর্স",
+            "text_en": "SPO / protection force"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "JAC vice president L. Thammei clarified that members traveling to Myanmar did so under pressure from insurgent groups. He stated that these groups attempted to influence JAC activities, while security agencies are monitoring the situation. The JAC has requested the government to deploy SPOs or protection forces for local security and opposed their misuse in counter-insurgency operations.",
+    "salience": [
+      {
+        "node": "JAC",
+        "type": "ORG",
+        "score": 0.94
+      },
+      {
+        "node": "Myanmar movement",
+        "type": "EVENT",
+        "score": 0.91
+      },
+      {
+        "node": "insurgent coercion",
+        "type": "EVENT",
+        "score": 0.9
+      },
+      {
+        "node": "security request",
+        "type": "EVENT",
+        "score": 0.88
+      }
+    ],
+    "manipuri_human_summary": "জেএসিগী ভাইস প্রসিডেন্ট এল থম্মোইনা জেএসি সদস্যশিং বর্মাদা চত্লুবা অসি লানহৌবশিংগী চাপ মরম ওই হায়না শেংদোকখি। মহাক্না জেএসিগী থবকশিংদা চাপ পীবা চেষ্টা লৈরি অমসুং সেক্যুরিটি এজেন্সিশিংনা মফম অদু নজরদারি তৌরি হায়খি। লোয়ননা জেএসিনা গবর্ণমেন্টতা এসপিও নত্ত্রগা প্রোটেক্সন ফোর্স থম্বা হায়জরক্লি।"
+  },
+  {
+    "doc_id": "MN_NEWS_015_DUP2",
+    "headline": "কাপশিল্লম্বগী ৱাকত্ মীফম ফমখ্রে , বোম লংশিল্লম্লে",
+    "headline_en": "Public protest held over firing incident; bomb recovered",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Imphal, Manipur",
+    "domain": "Law & Order / Insurgency",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "ডাক্টর জয়গী য়ুমদা শকখঙদবশিংনা নোংমৈ কাপশিল্লম্বগী মতাংদা ৱাকত্ মীফম ফমখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "মোটোরসাইকলদা লাকপা নহা অনীনা গেটতা নোংমৈ কাপশিল্লম্বনি"
+      },
+      {
+        "sid": 3,
+        "text": "কুকি লিবরেসন আর্মিনা লুপা লাক্ষ 3 গী ডিমাণ্ড নোট থম্লমখি"
+      },
+      {
+        "sid": 4,
+        "text": "শকখঙদবা নহা অনীনা ডাক্টরগী নারুমদা নোংমৈ নম্লকখি"
+      },
+      {
+        "sid": 5,
+        "text": "ক্লব ওর্গনাইজেসননা নোংমৈ কাপশিনবা থৌওং য়ানিংদবা আপিল তৌরক্লি"
+      },
+      {
+        "sid": 6,
+        "text": "জুয়েল্লরিগী য়ুমদা লংশিল্লম্বা বোম অমা পুলিসনা লৌখত্খ্রে"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "ডাক্টর",
+        "pos": "NOUN"
+      },
+      {
+        "token": "নোংমৈ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কাপশিল্লম্ব",
+        "pos": "VERB"
+      },
+      {
+        "token": "ডিমাণ্ড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "বোম",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল",
+        "text_en": "Imphal",
+        "label": "LOC"
+      },
+      {
+        "text": "জেএন হোস্পিটাল",
+        "text_en": "JN Hospital",
+        "label": "LOC"
+      },
+      {
+        "text": "থোকচোম জয়",
+        "text_en": "Dr. Thokchom Joy",
+        "label": "PERSON"
+      },
+      {
+        "text": "কুকি লিবরেসন আর্মি ( ইউ )",
+        "text_en": "Kuki Liberation Army (U)",
+        "label": "ORG"
+      },
+      {
+        "text": "ইম্ফাল পুলিস",
+        "text_en": "Imphal Police",
+        "label": "ORG"
+      },
+      {
+        "text": "শিংজমৈ টু লিল্লোং য়ুনাইটেড ক্লবস ওর্গনাইজেসন",
+        "text_en": "Singjamei to Lilong United Clubs Organization",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "নোংমৈ কাপশিল্লম্ব",
+        "trigger_en": "firing incident",
+        "type": "ATTACK",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "ডাক্টর জয়গী য়ুম",
+            "text_en": "house of Dr. Joy"
+          },
+          {
+            "role": "WEAPON",
+            "text": "নোংমৈ",
+            "text_en": "firearms"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "ডিমাণ্ড নোট থম্লমখি",
+        "trigger_en": "extortion demand issued",
+        "type": "EXTORTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "কুকি লিবরেসন আর্মি ( ইউ )",
+            "text_en": "Kuki Liberation Army (U)"
+          },
+          {
+            "role": "AMOUNT",
+            "text": "লুপা লাক্ষ 3",
+            "text_en": "3 lakh rupees"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "নোংমৈ নম্লকখি",
+        "trigger_en": "gun pointed / threat issued",
+        "type": "THREAT",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "ডাক্টর জয়",
+            "text_en": "Dr. Joy"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ৱাকত্ মীফম ফমখ্রে",
+        "trigger_en": "public protest held",
+        "type": "PROTEST",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "ইম্ফাল",
+            "text_en": "Imphal"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "বোম লৌখত্খ্রে",
+        "trigger_en": "bomb recovered",
+        "type": "SECURITY_OPERATION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "ইম্ফাল পুলিস",
+            "text_en": "Imphal Police"
+          },
+          {
+            "role": "LOC",
+            "text": "জুয়েল্লরিগী য়ুম",
+            "text_en": "jewelry shop/residence"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "A public protest was held in Imphal following a firing incident at the residence of Dr. Thokchom Joy. Unknown armed individuals reportedly arrived on a motorcycle and opened fire at his house, after earlier issuing an extortion demand of Rs. 3 lakh in the name of the Kuki Liberation Army (U). The attackers also allegedly threatened the doctor at gunpoint. In response, local organizations condemned the act and appealed to stop such violence. Separately, Imphal Police recovered a bomb from a jewelry-related residence, though the motive behind it remains unknown.",
+    "salience": [
+      {
+        "node": "firing incident",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "extortion demand",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "public protest",
+        "type": "EVENT",
+        "score": 0.9
+      },
+      {
+        "node": "bomb recovery",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "Dr. Thokchom Joy",
+        "type": "PERSON",
+        "score": 0.86
+      }
+    ],
+    "manipuri_human_summary": "ডা. থোকচোম জয়গী য়ুমদা নোংমৈ কাপশিল্লম্বগী থৌওংদগী ইম্ফালদা ৱাকত্ মীফম ফমখ্রে। কুকি লিবরেসন আর্মি (ইউ) গী মিংদা লুপা লাক্ষ 3 গী ডিমাণ্ড নোট থম্লমখ্রবা মতুংদা মশক খঙদবা নহা অনীনা মোটরসাইকেলদা লাক্লগা মহাক্কী য়ুমদা ফায়ারিং তৌখি অমসুং মহাকপু ত্রেট তৌখি হায়রি। অমরোমদা ইম্ফাল পুলিসনা জুয়েল্লরিগী য়ুম অমদগী বোম অমা লৌখত্খ্রে।"
+  },
+  {
+    "doc_id": "MN_NEWS_019",
+    "headline": "`অফাবা মীওই জিরি পুলিসতগী চেনখিবা লৈতে , থাদোকখিবনি`",
+    "headline_en": "No escape from police custody; released after verification",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Jiribam, Manipur",
+    "domain": "Security / Law Enforcement",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "জিরিবামদগী 22 শুবা আর্টিল্লরিনা ফারকখিবা পল্ফকি এক্টিবিষ্টনি হায়বা মীওই অহুমগী মনূংদা অমা পুলিসকি কষ্টডিদগী চেনখিবা লৈতে"
+      },
+      {
+        "sid": 2,
+        "text": "পুলিসনা ফোঙদোরক্লি যে ফারবা মীওই পুলিস কষ্টডিদগী নান্থোকখ্রে হায়বা পাউ অসি অশুদ্ধনি"
+      },
+      {
+        "sid": 3,
+        "text": "জিরিবাম পুলিসনা অফাবা মীওই পুলিস কষ্টডিদগী চেনখিবা লৈতে হায়না ফোঙদোরক্লি"
+      },
+      {
+        "sid": 4,
+        "text": "মীওই অমদু মোহম্মদ দুলান এলাইজ অলটাফ হুসেইন কৌই"
+      },
+      {
+        "sid": 5,
+        "text": "মীচম ওইবনিনা থাদোকখ্রে অমদি ময়ুমদা শিন্নসি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কষ্টডি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চেনখিবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "থাদোকখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "জিরিবাম",
+        "text_en": "Jiribam",
+        "label": "LOC"
+      },
+      {
+        "text": "পুলিস",
+        "text_en": "Police",
+        "label": "ORG"
+      },
+      {
+        "text": "পল্ফ",
+        "text_en": "PLF (People’s Liberation Front)",
+        "label": "ORG"
+      },
+      {
+        "text": "মোহম্মদ দুলান",
+        "text_en": "Mohammad Dulan",
+        "label": "PERSON"
+      },
+      {
+        "text": "অলটাফ হুসেইন",
+        "text_en": "Altaf Hussain",
+        "label": "PERSON"
+      },
+      {
+        "text": "22 শুবা আর্টিল্লরি",
+        "text_en": "22nd Assam Rifles (Artillery unit reference)",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ফারকখিবা",
+        "trigger_en": "arrested",
+        "type": "ARREST",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "22 শুবা আর্টিল্লরি",
+            "text_en": "22nd Assam Rifles"
+          },
+          {
+            "role": "SUSPECT",
+            "text": "মীওই অহুম",
+            "text_en": "three individuals"
+          },
+          {
+            "role": "AFFILIATION",
+            "text": "পল্ফ",
+            "text_en": "PLF"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "চেনখিবা লৈতে",
+        "trigger_en": "no escape from custody",
+        "type": "DENIAL",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "OBJECT",
+            "text": "চেনখিবা",
+            "text_en": "escape from custody"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "থাদোকখ্রে",
+        "trigger_en": "released",
+        "type": "RELEASE",
+        "arguments": [
+          {
+            "role": "PERSON",
+            "text": "মোহম্মদ দুলান",
+            "text_en": "Mohammad Dulan"
+          },
+          {
+            "role": "ALIAS",
+            "text": "অলটাফ হুসেইন",
+            "text_en": "Altaf Hussain"
+          },
+          {
+            "role": "REASON",
+            "text": "মীচম ওইবনি",
+            "text_en": "verified as civilian"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Police clarified that no suspect escaped from custody in Jiribam, dismissing circulating reports as false. Three individuals had earlier been apprehended by security forces on suspicion of links to a militant group. One of them, identified as Mohammad Dulan alias Altaf Hussain, was later released after verification confirmed that he was a civilian. Authorities stated that proper procedures were followed and no escape incident occurred.",
+    "salience": [
+      {
+        "node": "Police custody clarification",
+        "type": "EVENT",
+        "score": 0.94
+      },
+      {
+        "node": "Jiribam",
+        "type": "LOC",
+        "score": 0.91
+      },
+      {
+        "node": "arrest of suspects",
+        "type": "EVENT",
+        "score": 0.9
+      },
+      {
+        "node": "release after verification",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "PLF",
+        "type": "ORG",
+        "score": 0.86
+      }
+    ],
+    "manipuri_human_summary": "জিরিবাম পুলিসনা কষ্টডিদগী কনামত্তা চেনখিবা লৈতে হায়না স্পষ্ট ফোঙদোরক্লি অমসুং থোক্লিবা পাউশিং অশুদ্ধনি হায়খি। সেক্যুরিটি ফোর্সনা ফারকখিবা মীওই অহুমগী মনুংদা মোহম্মদ দুলান এলাইজ অলটাফ হুসেইনবু মীচম ওইবনি হায়না ভেরিফাই তৌদুনা থাদোকখ্রে। পুলিসনা প্রসিডিউর মপুংফাবা মওংদা চত্থখি হায়না হংখি।"
+  },
+  {
+    "doc_id": "MN_NEWS_020",
+    "headline": "থৌবাল ডিষ্ট্রিক্টতা মতম কক্ত বা জেনরেল ষ্ট্রাইক হৌখ্রে",
+    "headline_en": "Indefinite general strike begins in Thoubal district",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Thoubal District, Manipur",
+    "domain": "Protest / Labour / Governance",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "মণিপুর অঙ্গনৱাদি মহিলা ওর্গনাইজেসন থৌবাল ব্রাঞ্চনা জেনরেল ষ্ট্রাইক চত্থবা হৌখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "সিডিপিও এন সত্যভামা দেবীবু ট্রান্সফর তৌখ্রগা অমুক ষ্টে তৌরকপবু য়ানিংদে"
+      },
+      {
+        "sid": 3,
+        "text": "ৱার্কর অমদি হেল্পরশিংগী ওনররিয়ম অমদি ফংফম থোকপা শেনফম ফংহনদবা ডিমাণ্ড তৌরি"
+      },
+      {
+        "sid": 4,
+        "text": "লম্বী থিংবগী খোঙজং চঙশিনবদা পুলিসনা তানখায়বগী থৌদোক য়ানিংদে"
+      },
+      {
+        "sid": 5,
+        "text": "গবর্ণমেন্টনা নবেম্বর মঙা ফাওবদা ডিমাণ্ড পীদ্রবদি মণিপুর পুম্বা বন্দ কৌরগনি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "জেনরেল",
+        "pos": "ADJ"
+      },
+      {
+        "token": "ষ্ট্রাইক",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ডিমাণ্ড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চঙশিনব",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "থৌবাল",
+        "text_en": "Thoubal",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর অঙ্গনৱাদি মহিলা ওর্গনাইজেসন",
+        "text_en": "Manipur Anganwadi Workers' Women Organization",
+        "label": "ORG"
+      },
+      {
+        "text": "এন সত্যভামা দেবী",
+        "text_en": "N. Satyabhama Devi",
+        "label": "PERSON"
+      },
+      {
+        "text": "পুলিস",
+        "text_en": "Police",
+        "label": "ORG"
+      },
+      {
+        "text": "গবর্ণমেন্ট",
+        "text_en": "Government",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "জেনরেল ষ্ট্রাইক হৌখ্রে",
+        "trigger_en": "general strike began",
+        "type": "STRIKE",
+        "arguments": [
+          {
+            "role": "ORGANIZER",
+            "text": "মণিপুর অঙ্গনৱাদি মহিলা ওর্গনাইজেসন",
+            "text_en": "Manipur Anganwadi Workers' Women Organization"
+          },
+          {
+            "role": "LOC",
+            "text": "থৌবাল",
+            "text_en": "Thoubal"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "ট্রান্সফর তৌখ্রগা",
+        "trigger_en": "transfer order issued",
+        "type": "TRANSFER",
+        "arguments": [
+          {
+            "role": "PERSON",
+            "text": "এন সত্যভামা দেবী",
+            "text_en": "N. Satyabhama Devi"
+          },
+          {
+            "role": "AGENT",
+            "text": "গবর্ণমেন্ট",
+            "text_en": "Government"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "ডিমাণ্ড তৌরি",
+        "trigger_en": "demands raised",
+        "type": "DEMAND",
+        "arguments": [
+          {
+            "role": "GROUP",
+            "text": "ৱার্কর অমদি হেল্পরশিং",
+            "text_en": "Workers and helpers"
+          },
+          {
+            "role": "ISSUE",
+            "text": "ওনররিয়ম অমদি শেনফম",
+            "text_en": "honorarium and pending payments"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "তানখায়বগী থৌদোক",
+        "trigger_en": "use of force / suppression",
+        "type": "POLICE_ACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "TARGET",
+            "text": "প্রতিবাদকাৰী",
+            "text_en": "protesters"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "বন্দ কৌরগনি",
+        "trigger_en": "statewide shutdown announced",
+        "type": "SHUTDOWN",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "মণিপুর",
+            "text_en": "Manipur"
+          },
+          {
+            "role": "CONDITION",
+            "text": "ডিমাণ্ড পীদ্রবদি",
+            "text_en": "if demands are not met"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "An indefinite general strike has been launched in Thoubal district by the Manipur Anganwadi Workers' Women Organization protesting the transfer of CDPO N. Satyabhama Devi and other grievances. Workers and helpers are demanding payment of honorariums and pending dues. Protesters alleged police suppression during demonstrations. The organization warned that if their demands are not met by November 5, a statewide shutdown across Manipur will be initiated.",
+    "salience": [
+      {
+        "node": "general strike",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "Thoubal",
+        "type": "LOC",
+        "score": 0.92
+      },
+      {
+        "node": "Anganwadi workers",
+        "type": "ORG",
+        "score": 0.9
+      },
+      {
+        "node": "demands for honorarium",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "statewide bandh warning",
+        "type": "EVENT",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "মণিপুর অঙ্গনৱাদি মহিলা ওর্গনাইজেসন, থৌবাল ব্রাঞ্চনা এন সত্যভামা দেবীগী ট্রান্সফর অমসুং অতৈ ডিমাণ্ডশিংগী মায়োক্তা থৌবাল ডিষ্ট্রিক্টতা মতম কক্তবা জেনরেল ষ্ট্রাইক হৌদোকখ্রে। ৱার্কর অমদি হেল্পরশিংনা ওনররিয়ম অমসুং পেন্দবা শেনফম ফংহনবা ডিমাণ্ড তৌরি। মখোয়না নবেম্বর 5 ফাওবদা ডিমাণ্ড পীদ্রবদি মণিপুর পুম্বা বন্দ কৌরগনি হায়না সতর্ক তৌরি।"
+  },
+  {
+    "doc_id": "MN_NEWS_022",
+    "headline": "কন্না ঙাক্লিবা রাজ ভবনগী গেটতা থম্লম্বা খাউদা মীয়াম পাখত্নরুরে",
+    "headline_en": "Suspicious bag near Raj Bhavan gate causes panic and traffic congestion",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Imphal, Manipur",
+    "domain": "Security / Public Safety",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "রাজ ভবনগী মেন গেট মমাংদা বোম য়াওবা মানবা খাউ অমা লৈরম্বদগী ট্রাফিক জাম ওইখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "মশক খঙদবা নহা অমা খাউ অদু থম্লম্লগা থোকখি"
+      },
+      {
+        "sid": 3,
+        "text": "সিআরপিএফ অমদি ষ্টেট পুলিসনা মফম অদু চেকশিনখি"
+      },
+      {
+        "sid": 4,
+        "text": "বোম এক্সপার্টশিংনা চেকশিন্নবা মতুংদা বোম য়াওদ্রে হায়না খঙখি"
+      },
+      {
+        "sid": 5,
+        "text": "খাউ অদুদা চেঙ অমদি পোলিথিন ফংখি"
+      },
+      {
+        "sid": 6,
+        "text": "লম্বী থিংবনা মরম ওইদুনা ট্রাফিক জাম ওইখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "খাউ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চেকশিনখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "বোম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফংখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল",
+        "text_en": "Imphal",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "রাজ ভবন",
+        "text_en": "Raj Bhavan",
+        "label": "LOC"
+      },
+      {
+        "text": "সিআরপিএফ",
+        "text_en": "CRPF",
+        "label": "ORG"
+      },
+      {
+        "text": "ষ্টেট পুলিস",
+        "text_en": "State Police",
+        "label": "ORG"
+      },
+      {
+        "text": "এস কাইলুন",
+        "text_en": "S. Kailun",
+        "label": "PERSON"
+      },
+      {
+        "text": "গুরুবচন জগত",
+        "text_en": "Gurbachan Jagat",
+        "label": "PERSON"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "থম্লম্ল",
+        "trigger_en": "placed",
+        "type": "SUSPICIOUS_ACTIVITY",
+        "arguments": [
+          {
+            "role": "OBJECT",
+            "text": "খাউ",
+            "text_en": "bag"
+          },
+          {
+            "role": "LOC",
+            "text": "রাজ ভবন গেট",
+            "text_en": "Raj Bhavan gate"
+          },
+          {
+            "role": "AGENT",
+            "text": "মশক খঙদবা নহা",
+            "text_en": "unknown youth"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "চেকশিনখি",
+        "trigger_en": "inspected",
+        "type": "SECURITY_CHECK",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "সিআরপিএফ অমদি ষ্টেট পুলিস",
+            "text_en": "CRPF and State Police"
+          },
+          {
+            "role": "OBJECT",
+            "text": "খাউ",
+            "text_en": "bag"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "খঙখি",
+        "trigger_en": "confirmed",
+        "type": "INVESTIGATION_RESULT",
+        "arguments": [
+          {
+            "role": "FINDING",
+            "text": "বোম য়াওদ্রে",
+            "text_en": "no bomb found"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "জাম ওইখি",
+        "trigger_en": "traffic jam",
+        "type": "DISRUPTION",
+        "arguments": [
+          {
+            "role": "CAUSE",
+            "text": "লম্বী থিংব",
+            "text_en": "road blockage"
+          },
+          {
+            "role": "LOC",
+            "text": "ইম্ফাল",
+            "text_en": "Imphal"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "A suspicious bag left near the main gate of Raj Bhavan in Imphal caused panic and led to heavy traffic congestion in the area. An unidentified individual reportedly placed the bag near CRPF personnel before leaving. Security forces, including CRPF and state police, conducted a thorough inspection with bomb experts. After examination, it was confirmed that the bag did not contain any explosives; only rice and polythene materials were found inside. The incident occurred amid heightened security concerns due to recent bomb blasts, prompting strict vigilance across the region.",
+    "salience": [
+      {
+        "node": "suspicious bag incident",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "Raj Bhavan",
+        "type": "LOC",
+        "score": 0.92
+      },
+      {
+        "node": "security check",
+        "type": "EVENT",
+        "score": 0.9
+      },
+      {
+        "node": "no bomb found",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "traffic congestion",
+        "type": "EVENT",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "ইম্ফালদা রাজ ভবনগী মেন গেট মমাংদা শক খঙদবা নহা অমনা থম্লম্বা সন্দেহজনক খাউ অমনা মীয়ামদা অকিবা পোকহন্দুনা ট্রাফিক জাম ওইখ্রে। সিআরপিএফ অমসুং ষ্টেট পুলিসনা বোম এক্সপার্টশিংগা লোয়ননা চেকশিনবদা খাউ অদুদা বোম য়াওদ্রে হায়না খঙখি। মফম অদুদগী চেঙ অমদি পোলিথিন খক্তং ফংখি।"
+  },
+  {
+    "doc_id": "MN_NEWS_023",
+    "headline": "রেল্লি চত্পশিং তানখায়বদা 17 শোক্লে",
+    "headline_en": "17 injured as police disperse protest rally",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Mapithel Dam site, Manipur",
+    "domain": "Protest / Law & Order",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "মপিথেল ডাম মায়োক্তা রেল্লি চত্পদা পুলিসনা টিয়ার গ্যাস অমদি লাঠি চার্জ তৌখি"
+      },
+      {
+        "sid": 2,
+        "text": "মৈরা পায়বী অমা অমসুং অতোপ্পা 17 শোকখ্রে"
+      },
+      {
+        "sid": 3,
+        "text": "রেল্লি অদু ডাম এফেক্টেড ওর্গনাইজেসননা শীন্দুনা চত্খিবনি"
+      },
+      {
+        "sid": 4,
+        "text": "প্রটেষ্টরশিংনা তোঙান তোঙানবা ডিমাণ্ডশিং লাউখি"
+      },
+      {
+        "sid": 5,
+        "text": "পুলিসনা রেল্লি তানখায়নবা কন্না হোত্নখি"
+      },
+      {
+        "sid": 6,
+        "text": "অহল অমা জেএন হোস্পিটালদা লায়কন্নরি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "রেল্লি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "টিয়ার গ্যাস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লাঠি চার্জ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "শোকখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "মপিথেল ডাম",
+        "text_en": "Mapithel Dam",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "জেএন হোস্পিটাল",
+        "text_en": "JN Hospital",
+        "label": "LOC"
+      },
+      {
+        "text": "সি লুংমিলা",
+        "text_en": "C. Lungmila",
+        "label": "PERSON"
+      },
+      {
+        "text": "চীফ মিনিষ্টর ও ইবোবি",
+        "text_en": "Chief Minister O. Ibobi",
+        "label": "PERSON"
+      },
+      {
+        "text": "আইএফসিডি",
+        "text_en": "IFCD",
+        "label": "ORG"
+      },
+      {
+        "text": "পুলিস",
+        "text_en": "Police",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "রেল্লি চত্প",
+        "trigger_en": "protest rally",
+        "type": "PROTEST",
+        "arguments": [
+          {
+            "role": "PARTICIPANT",
+            "text": "মৈরা পায়বীশিং",
+            "text_en": "women protesters"
+          },
+          {
+            "role": "LOC",
+            "text": "মপিথেল ডাম",
+            "text_en": "Mapithel Dam"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "টিয়ার গ্যাস কাপ্প",
+        "trigger_en": "tear gas fired",
+        "type": "POLICE_ACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "TARGET",
+            "text": "প্রটেষ্টরশিং",
+            "text_en": "protesters"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "লাঠি চার্জ",
+        "trigger_en": "lathi charge",
+        "type": "POLICE_ACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "TARGET",
+            "text": "মৈরা পায়বীশিং",
+            "text_en": "women protesters"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "শোকখ্রে",
+        "trigger_en": "injured",
+        "type": "CASUALTY",
+        "arguments": [
+          {
+            "role": "COUNT",
+            "text": "17",
+            "text_en": "17 people"
+          },
+          {
+            "role": "VICTIM",
+            "text": "প্রটেষ্টরশিং",
+            "text_en": "protesters"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "লায়কন্নরি",
+        "trigger_en": "hospitalized",
+        "type": "MEDICAL_TREATMENT",
+        "arguments": [
+          {
+            "role": "PATIENT",
+            "text": "সি লুংমিলা",
+            "text_en": "C. Lungmila"
+          },
+          {
+            "role": "LOC",
+            "text": "জেএন হোস্পিটাল",
+            "text_en": "JN Hospital"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "A large protest rally was organized by groups affected by the Mapithel Dam, where participants raised multiple demands and attempted to march towards the dam site. Police intervened to stop the rally, using tear gas and baton charges to disperse the protesters. During the clash, at least 17 people were injured, including a woman identified as C. Lungmila, who was admitted to JN Hospital. Protesters carried placards with slogans such as 'No Review No Dam' and demanded compensation, economic packages, and equal treatment for affected communities. The organizers stated that the protest was peaceful but warned of intensified agitation in the future.",
+    "salience": [
+      {
+        "node": "protest rally",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "Mapithel Dam",
+        "type": "LOC",
+        "score": 0.93
+      },
+      {
+        "node": "police action",
+        "type": "EVENT",
+        "score": 0.91
+      },
+      {
+        "node": "17 injured",
+        "type": "EVENT",
+        "score": 0.89
+      },
+      {
+        "node": "JN Hospital",
+        "type": "LOC",
+        "score": 0.85
+      }
+    ],
+    "manipuri_human_summary": "মপিথেল ডামগী মায়োক্তা ডাম এফেক্টেড গ্রুপশিংনা চত্থবা অচৌবা রেল্লি অমা পুলিসনা টিয়ার গ্যাস অমদি লাঠি চার্জ শীজিন্নদুনা তানখাইখি। থৌদোক অদুদা মীওই 17 শোকখ্রগা সি লুংমিলা হায়বা নুপী অমা জেএন হোস্পিটালদা লায়কন্নরি। প্রটেষ্টরশিংনা কম্পেন্সেসন, ইকোনোমিক প্যাকেজ অমদি ইক্বেল ত্রিটমেন্ট ডিমাণ্ড তৌখি।"
+  },
+  {
+    "doc_id": "MN_NEWS_025",
+    "headline": "থবক য়াওনা ননাওদা পীবা য়াবা পীগনি : চীফ মিনিষ্টর",
+    "headline_en": "Government will provide job support to world champion Thokchom Nanao: Chief Minister",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Imphal, Manipur",
+    "domain": "Sports / Government Recognition",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "থোকচোম ননাওনা ৱার্ল্ড বোক্সিং চেম্পিয়ন ওইরকপদা চীফ মিনিষ্টরনা অভিনন্দন পীখি"
+      },
+      {
+        "sid": 2,
+        "text": "গবর্ণমেন্টনা মহাক্তা থবক পীবা য়াবা পীগনি হায়না ফোঙদোকখি"
+      },
+      {
+        "sid": 3,
+        "text": "ননাওনা মেক্সিকোগী গুঅদলাজরাদা পাঙথোকপা চেম্পিয়নশিপতা জয় পীখি"
+      },
+      {
+        "sid": 4,
+        "text": "মণিপুর ওলিম্পিক এসোসিয়েসন অমসুং এমএলএশিংনা শেন পীবা হায়না লাউথোকখি"
+      },
+      {
+        "sid": 5,
+        "text": "ননাওনা ফাইনেল মেটচতা রসিয়াগী প্লেয়ারবু মায়থীবা পীখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "চেম্পিয়ন",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পীখি",
+        "pos": "VERB"
+      },
+      {
+        "token": "গবর্ণমেন্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "থবক",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মায়থীবা",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "থোকচোম ননাও",
+        "text_en": "Thokchom Nanao",
+        "label": "PERSON"
+      },
+      {
+        "text": "চীফ মিনিষ্টর ও ইবোবি",
+        "text_en": "Chief Minister O. Ibobi",
+        "label": "PERSON"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "মেক্সিকো",
+        "text_en": "Mexico",
+        "label": "LOC"
+      },
+      {
+        "text": "গুঅদলাজরা",
+        "text_en": "Guadalajara",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর ওলিম্পিক এসোসিয়েসন",
+        "text_en": "Manipur Olympic Association",
+        "label": "ORG"
+      },
+      {
+        "text": "রসিয়া",
+        "text_en": "Russia",
+        "label": "LOC"
+      },
+      {
+        "text": "গ্রিগোরি নিকোলাইচক",
+        "text_en": "Grigori Nikolaichuk",
+        "label": "PERSON"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "চেম্পিয়ন ওইরকপ",
+        "trigger_en": "became champion",
+        "type": "SPORTS_VICTORY",
+        "arguments": [
+          {
+            "role": "ATHLETE",
+            "text": "থোকচোম ননাও",
+            "text_en": "Thokchom Nanao"
+          },
+          {
+            "role": "COMPETITION",
+            "text": "ইয়ুঠ ৱার্ল্ড বোক্সিং চেম্পিয়নশিপ",
+            "text_en": "Youth World Boxing Championship"
+          },
+          {
+            "role": "LOC",
+            "text": "গুঅদলাজরা",
+            "text_en": "Guadalajara"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "অভিনন্দন পীখি",
+        "trigger_en": "congratulated",
+        "type": "GOVERNMENT_REACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "চীফ মিনিষ্টর ও ইবোবি",
+            "text_en": "Chief Minister O. Ibobi"
+          },
+          {
+            "role": "TARGET",
+            "text": "থোকচোম ননাও",
+            "text_en": "Thokchom Nanao"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "থবক পীগনি",
+        "trigger_en": "job will be provided",
+        "type": "GOVERNMENT_SUPPORT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "গবর্ণমেন্ট",
+            "text_en": "Government"
+          },
+          {
+            "role": "BENEFICIARY",
+            "text": "থোকচোম ননাও",
+            "text_en": "Thokchom Nanao"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "মায়থীবা পীখি",
+        "trigger_en": "defeated opponent",
+        "type": "SPORTS_MATCH",
+        "arguments": [
+          {
+            "role": "WINNER",
+            "text": "থোকচোম ননাও",
+            "text_en": "Thokchom Nanao"
+          },
+          {
+            "role": "OPPONENT",
+            "text": "গ্রিগোরি নিকোলাইচক",
+            "text_en": "Grigori Nikolaichuk"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "শেন পীবা",
+        "trigger_en": "cash reward announced",
+        "type": "REWARD",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "মণিপুর ওলিম্পিক এসোসিয়েসন অমসুং এমএলএশিং",
+            "text_en": "Manipur Olympic Association and MLAs"
+          },
+          {
+            "role": "BENEFICIARY",
+            "text": "থোকচোম ননাও",
+            "text_en": "Thokchom Nanao"
+          },
+          {
+            "role": "AMOUNT",
+            "text": "লুপা লীশিং 50/50",
+            "text_en": "Rs. 50,000 each"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Chief Minister O. Ibobi congratulated Thokchom Nanao for winning the Youth World Boxing Championship held in Guadalajara, Mexico, in the 48 kg category. He announced that the Manipur government would provide a suitable job to the world champion in recognition of his achievement. The victory was described as a proud moment for both Manipur and India, with the Chief Minister expressing hope that Nanao would inspire future athletes. Additionally, the Manipur Olympic Association and local MLAs announced cash rewards for the boxer. Nanao secured the title by defeating Russia’s Grigori Nikolaichuk in the final.",
+    "salience": [
+      {
+        "node": "Thokchom Nanao",
+        "type": "PERSON",
+        "score": 0.97
+      },
+      {
+        "node": "world boxing championship victory",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "government job support",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "cash reward",
+        "type": "EVENT",
+        "score": 0.89
+      },
+      {
+        "node": "Guadalajara",
+        "type": "LOC",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "ইয়ুঠ ৱার্ল্ড বোক্সিং চেম্পিয়নশিপতা থোকচোম ননাওনা চেম্পিয়ন ওইরকপদা চীফ মিনিষ্টর ও ইবোবিনা অভিনন্দন পীখি। গবর্ণমেন্টনা মহাক্কী থোইদোককী মর্যাদা ওইনা অফবা থবক পীগনি হায়না ফোঙদোকখ্রে। মণিপুর ওলিম্পিক এসোসিয়েসন অমসুং এমএলএশিংনসু ননাওদা শেনগী পুরস্কার লাউথোকখ্রে।"
+  },
+  {
+    "doc_id": "MN_NEWS_026",
+    "headline": "এআরনা য়ুজিনি হায়বা অনী ফাখ্রে",
+    "headline_en": "Assam Rifles apprehends two suspected militants",
+    "source_language": "Manipuri",
+    "date": "November",
+    "location": "Moreh and Kanchipur, Manipur",
+    "domain": "Security / Insurgency",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "আসাম রাইফলসনা থি-হুম্বগী থবক্তা মীওই অনী ফাখি"
+      },
+      {
+        "sid": 2,
+        "text": "কাঞ্চিপুরদা কেৱাইকেএলগীনি হায়বা মীওই অমা ফাখি"
+      },
+      {
+        "sid": 3,
+        "text": "মহাক্কী মমিং থোকচোম বিজয় এলাইজ ভোপেন্দ্রো"
+      },
+      {
+        "sid": 4,
+        "text": "মোরে দা পিএলএগী কাডর অমা ফাখি"
+      },
+      {
+        "sid": 5,
+        "text": "মহাক্কী মমিং থোইবি সিংহ"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "ফাখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "আসাম রাইফলস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কাডর",
+        "pos": "NOUN"
+      },
+      {
+        "token": "থবক",
+        "pos": "NOUN"
+      },
+      {
+        "token": "শিন্নখ্রে",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "থোকচোম বিজয় এলাইজ ভোপেন্দ্রো",
+        "text_en": "Thokchom Bijoy alias Bhupendro",
+        "label": "PERSON"
+      },
+      {
+        "text": "থোইবি সিংহ",
+        "text_en": "Thoibi Singh",
+        "label": "PERSON"
+      },
+      {
+        "text": "কাঞ্চিপুর",
+        "text_en": "Kanchipur",
+        "label": "LOC"
+      },
+      {
+        "text": "মোরে",
+        "text_en": "Moreh",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "আসাম রাইফলস",
+        "text_en": "Assam Rifles",
+        "label": "ORG"
+      },
+      {
+        "text": "পিএলএ",
+        "text_en": "PLA (People's Liberation Army)",
+        "label": "ORG"
+      },
+      {
+        "text": "কেৱাইকেএল",
+        "text_en": "KYKL",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ফাখ্রে",
+        "trigger_en": "apprehended",
+        "type": "ARREST",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "আসাম রাইফলস",
+            "text_en": "Assam Rifles"
+          },
+          {
+            "role": "SUSPECT",
+            "text": "থোকচোম বিজয় এলাইজ ভোপেন্দ্রো",
+            "text_en": "Thokchom Bijoy alias Bhupendro"
+          },
+          {
+            "role": "AFFILIATION",
+            "text": "কেৱাইকেএল",
+            "text_en": "KYKL"
+          },
+          {
+            "role": "LOC",
+            "text": "কাঞ্চিপুর",
+            "text_en": "Kanchipur"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "ফাখি",
+        "trigger_en": "apprehended",
+        "type": "ARREST",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "আসাম রাইফলস",
+            "text_en": "Assam Rifles"
+          },
+          {
+            "role": "SUSPECT",
+            "text": "থোইবি সিংহ",
+            "text_en": "Thoibi Singh"
+          },
+          {
+            "role": "AFFILIATION",
+            "text": "পিএলএ",
+            "text_en": "PLA"
+          },
+          {
+            "role": "LOC",
+            "text": "মোরে",
+            "text_en": "Moreh"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "শিন্নখ্রে",
+        "trigger_en": "handed over",
+        "type": "CUSTODY_TRANSFER",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "আসাম রাইফলস",
+            "text_en": "Assam Rifles"
+          },
+          {
+            "role": "RECIPIENT",
+            "text": "শিংজমৈ পুলিস ষ্টেসন",
+            "text_en": "Singjamei Police Station"
+          },
+          {
+            "role": "SUSPECT",
+            "text": "থোকচোম বিজয় এলাইজ ভোপেন্দ্রো",
+            "text_en": "Thokchom Bijoy alias Bhupendro"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Assam Rifles apprehended two suspected militants in separate operations in Manipur. In Kanchipur, a KYKL cadre identified as Thokchom Bijoy alias Bhupendro (37) was arrested and later handed over to Singjamei Police Station. In another operation in Moreh, a PLA cadre identified as Thoibi Singh (30) was also apprehended. The arrests were made during routine search operations conducted by Assam Rifles units.",
+    "salience": [
+      {
+        "node": "Assam Rifles",
+        "type": "ORG",
+        "score": 0.96
+      },
+      {
+        "node": "arrest of militants",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "Thokchom Bijoy",
+        "type": "PERSON",
+        "score": 0.93
+      },
+      {
+        "node": "Thoibi Singh",
+        "type": "PERSON",
+        "score": 0.92
+      },
+      {
+        "node": "Kanchipur / Moreh",
+        "type": "LOC",
+        "score": 0.9
+      }
+    ],
+    "manipuri_human_summary": "আসাম রাইফলসনা মণিপুরদা তোঙান তোঙানবা অপারেশন অনী চত্থদুনা সন্দেহভাজন য়ুজি অনী ফাখ্রে। কাঞ্চিপুরদা কেৱাইকেএলগী থোকচোম বিজয় এলাইজ ভোপেন্দ্রোবু ফারগা শিংজমৈ পুলিস ষ্টেসনদা শিন্নখ্রে, অমরোমদা মোরেদা পিএলএগী থোইবি সিংহসু ফাখি। মসি থি-হুম্বগী থবকগী মনুংদা তৌখিবা অপারেশন ওই।"
+  },
+  {
+    "doc_id": "MN_NEWS_027",
+    "headline": "অফাবা মীওই জিরি পুলিসতগী চেনখিবা লৈতে , থাদোকখিবনি",
+    "headline_en": "No detainee escaped from Jiribam police custody, clarified",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Jiribam, Manipur",
+    "domain": "Security / Law & Order",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "পুলিসনা কষ্টডিদগী মীওই অমত্তা চেনখিবা লৈতে হায়না ফোঙদোরক্লি"
+      },
+      {
+        "sid": 2,
+        "text": "মরী লৈনবা পাউ অদু ইম্ফাল ইষ্ট এসএসপিনা খণ্ডন তৌখি"
+      },
+      {
+        "sid": 3,
+        "text": "জিরিবাম পুলিসনসু চেনখিবা লৈতে হায়না নিশ্চিত তৌখি"
+      },
+      {
+        "sid": 4,
+        "text": "ফারখিবা মীওই অমগী মমিং মোহম্মদ দুলান এলাইজ অলটাফ হুসেইন"
+      },
+      {
+        "sid": 5,
+        "text": "মীওই অদু মীচম ওইনবা থাদোকখ্রে"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "চেনখিবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "ফোঙদোরক্লি",
+        "pos": "VERB"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কষ্টডি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মীওই",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "মোহম্মদ দুলান এলাইজ অলটাফ হুসেইন",
+        "text_en": "Mohammad Dulan alias Altaf Hussain",
+        "label": "PERSON"
+      },
+      {
+        "text": "জিরিবাম",
+        "text_en": "Jiribam",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "ইম্ফাল ইষ্ট",
+        "text_en": "Imphal East",
+        "label": "LOC"
+      },
+      {
+        "text": "পুলিস",
+        "text_en": "Police",
+        "label": "ORG"
+      },
+      {
+        "text": "22 শুবা আর্টিল্লরি",
+        "text_en": "22 Assam Rifles",
+        "label": "ORG"
+      },
+      {
+        "text": "পল্ফ",
+        "text_en": "PLF",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ফোঙদোরক্লি",
+        "trigger_en": "clarified",
+        "type": "STATEMENT",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "CLAIM",
+            "text": "কষ্টডিদগী মীওই চেনখিবা লৈতে",
+            "text_en": "no detainee escaped from custody"
+          },
+          {
+            "role": "LOC",
+            "text": "জিরিবাম",
+            "text_en": "Jiribam"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "খণ্ডন তৌখি",
+        "trigger_en": "denied",
+        "type": "DENIAL",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "ইম্ফাল ইষ্ট এসএসপি",
+            "text_en": "Imphal East SSP"
+          },
+          {
+            "role": "TARGET",
+            "text": "মরী লৈনবা পাউ",
+            "text_en": "misleading reports"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "থাদোকখ্রে",
+        "trigger_en": "released",
+        "type": "RELEASE",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "PERSON",
+            "text": "মোহম্মদ দুলান এলাইজ অলটাফ হুসেইন",
+            "text_en": "Mohammad Dulan alias Altaf Hussain"
+          },
+          {
+            "role": "REASON",
+            "text": "মীচম ওইবনিনা",
+            "text_en": "being a civilian"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Police clarified that no detainee had escaped from Jiribam police custody, rejecting reports circulating on the issue. The Imphal East SSP also denied the claims. One individual, Mohammad Dulan alias Altaf Hussain (20), who had been brought in earlier, was identified as a civilian and subsequently released. Authorities stated that all procedures were properly followed and no escape incident occurred.",
+    "salience": [
+      {
+        "node": "Police clarification",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "Jiribam police custody",
+        "type": "LOC",
+        "score": 0.94
+      },
+      {
+        "node": "Mohammad Dulan",
+        "type": "PERSON",
+        "score": 0.92
+      },
+      {
+        "node": "escape denial",
+        "type": "EVENT",
+        "score": 0.91
+      }
+    ],
+    "manipuri_human_summary": "জিরিবাম পুলিসনা কষ্টডিদগী মীওই অমত্তা চেনখিবা লৈতে হায়না ফোঙদোরক্লি অমসুং থোক্লিবা পাউশিং খণ্ডন তৌখি। ইম্ফাল ইষ্ট এসএসপিনসু মখা তানা মদু নত্তে হায়না হংখি। মোহম্মদ দুলান এলাইজ অলটাফ হুসেইনবু মীচম ওইবনিনা থাদোকখ্রে হায়রি।"
+  },
+  {
+    "doc_id": "MN_NEWS_029",
+    "headline": "মীচমশিংগী পুন্সি মাঙহনবা , শোকহনববু য়ানিংদবা ফোঙদোক্লি",
+    "headline_en": "Strong condemnation over loss of civilian lives and injuries",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Imphal, Manipur",
+    "domain": "Public response / Security / Civilian safety",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "য়ুনাইটেড এনজিও মিসন মণিপুর অমসুং নোর্ঠ ইষ্ট ডাইলোগ ফোরমনা গুৱাহাটী, ইম্ফাল রগাইলোং অমসুং অগরতলাগী বোম আক্রমণশিংদা মীচমশিংগী পুন্সি মাঙহনবা অমসুং শোকহনববু য়ানিংদবা ফোঙদোকখি"
+      },
+      {
+        "sid": 2,
+        "text": "রগাইলোংদা বোম পোকখায়হনবদা মীওই 17 শিখি অমসুং 35 শোকখি"
+      },
+      {
+        "sid": 3,
+        "text": "গুৱাহাটী, বারপেতা, কোকাজার অমসুং বোংগাইগাঁওদা বোম পোকখায়হনবদা মীওই 81 শিখি অমসুং 300 হেন্না অশোক অপন নংখি"
+      },
+      {
+        "sid": 4,
+        "text": "অগরতলাগী পেলেস গেটতা বোম এটেক্ট তৌদুনা মীওই অনী শিখি অমসুং 40 হেন্না অশোক-অপন নংখি"
+      },
+      {
+        "sid": 5,
+        "text": "মণিপুর প্রেস ক্লবতা পাউমীশিংগা উনবদা য়ু নোবোকিশ্বরনা মীচমশিংবু টার্গেট তৌবা থৌওংশিং অসি য়ানিংদে হায়খি"
+      },
+      {
+        "sid": 6,
+        "text": "মংসাতাবম সুবিতানা অশোকপশিংদা এক্স-গ্রেসিয়া অমদি শেনফম পীবা মথৌ তারে হায়খি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "মীচমশিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পুন্সি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "মাঙহনবা",
+        "pos": "VERB"
+      },
+      {
+        "token": "শোকহনব",
+        "pos": "VERB"
+      },
+      {
+        "token": "বোম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোঙদোকখি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল",
+        "text_en": "Imphal",
+        "label": "LOC"
+      },
+      {
+        "text": "রগাইলোং",
+        "text_en": "Ragailong",
+        "label": "LOC"
+      },
+      {
+        "text": "গুৱাহাটী",
+        "text_en": "Guwahati",
+        "label": "LOC"
+      },
+      {
+        "text": "বারপেতা",
+        "text_en": "Barpeta",
+        "label": "LOC"
+      },
+      {
+        "text": "কোকাজার",
+        "text_en": "Kokrajhar",
+        "label": "LOC"
+      },
+      {
+        "text": "বোংগাইগাঁও",
+        "text_en": "Bongaigaon",
+        "label": "LOC"
+      },
+      {
+        "text": "অগরতলা",
+        "text_en": "Agartala",
+        "label": "LOC"
+      },
+      {
+        "text": "পেলেস গেট",
+        "text_en": "Palace Gate",
+        "label": "LOC"
+      },
+      {
+        "text": "য়ুনাইটেড এনজিও মিসন মণিপুর",
+        "text_en": "United NGOs Mission Manipur",
+        "label": "ORG"
+      },
+      {
+        "text": "নোর্ঠ ইষ্ট ডাইলোগ ফোরম",
+        "text_en": "North East Dialogue Forum",
+        "label": "ORG"
+      },
+      {
+        "text": "মণিপুর প্রেস ক্লব",
+        "text_en": "Manipur Press Club",
+        "label": "ORG"
+      },
+      {
+        "text": "য়ু নোবোকিশ্বর",
+        "text_en": "U. Nobakishwar",
+        "label": "PERSON"
+      },
+      {
+        "text": "মংসাতাবম সুবিতা",
+        "text_en": "Mongsatabam Subita",
+        "label": "PERSON"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ফোঙদোকখি",
+        "trigger_en": "condemned",
+        "type": "CONDMNATION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "য়ুনাইটেড এনজিও মিসন মণিপুর",
+            "text_en": "United NGOs Mission Manipur"
+          },
+          {
+            "role": "AGENT",
+            "text": "নোর্ঠ ইষ্ট ডাইলোগ ফোরম",
+            "text_en": "North East Dialogue Forum"
+          },
+          {
+            "role": "TOPIC",
+            "text": "মীচমশিংগী পুন্সি মাঙহনবা অমসুং শোকহনব",
+            "text_en": "civilian deaths and injuries"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "বোম পোকখায়হনব",
+        "trigger_en": "bomb blast",
+        "type": "BOMB_ATTACK",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "রগাইলোং",
+            "text_en": "Ragailong"
+          },
+          {
+            "role": "CASUALTY",
+            "text": "মীওই 17 শিখি অমসুং 35 শোকখি",
+            "text_en": "17 killed and 35 injured"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "বোম পোকখায়হনব",
+        "trigger_en": "serial bomb blasts",
+        "type": "BOMB_ATTACK",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "গুৱাহাটী, বারপেতা, কোকাজার, বোংগাইগাঁও",
+            "text_en": "Guwahati, Barpeta, Kokrajhar, and Bongaigaon"
+          },
+          {
+            "role": "CASUALTY",
+            "text": "মীওই 81 শিখি অমসুং 300 হেন্না অশোক অপন",
+            "text_en": "81 killed and more than 300 injured"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "বোম এটেক্ট",
+        "trigger_en": "bomb attack",
+        "type": "BOMB_ATTACK",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "অগরতলাগী পেলেস গেট",
+            "text_en": "Palace Gate, Agartala"
+          },
+          {
+            "role": "CASUALTY",
+            "text": "মীওই অনী শিখি অমসুং 40 হেন্না অশোক-অপন",
+            "text_en": "2 killed and more than 40 injured"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "হায়খি",
+        "trigger_en": "said / appealed",
+        "type": "PUBLIC_APPEAL",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "য়ু নোবোকিশ্বর",
+            "text_en": "U. Nobakishwar"
+          },
+          {
+            "role": "TOPIC",
+            "text": "মীচমশিংবু টার্গেট তৌবা থৌওংশিং য়ানিংদে",
+            "text_en": "attacks targeting civilians are unacceptable"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_6",
+        "trigger": "পীবা মথৌ তারে",
+        "trigger_en": "should provide compensation",
+        "type": "RELIEF_DEMAND",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "মংসাতাবম সুবিতা",
+            "text_en": "Mongsatabam Subita"
+          },
+          {
+            "role": "BENEFICIARY",
+            "text": "অশোকপশিং",
+            "text_en": "injured victims"
+          },
+          {
+            "role": "OBJECT",
+            "text": "এক্স-গ্রেসিয়া অমদি শেনফম",
+            "text_en": "ex gratia and financial assistance"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "United NGOs Mission Manipur and the North East Dialogue Forum strongly condemned the bomb attacks in Ragailong, Guwahati, and Agartala that caused heavy civilian casualties. Speaking at a press conference at the Manipur Press Club, the organizations said attacks targeting ordinary people were unacceptable and urged that such incidents must not recur. They also called on the government to take more effective and responsible measures instead of relying only on increased military deployment. The speakers further demanded compensation and financial assistance for those killed and injured in the attacks.",
+    "salience": [
+      {
+        "node": "condemnation of bomb attacks",
+        "type": "EVENT",
+        "score": 0.97
+      },
+      {
+        "node": "civilian casualties",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "United NGOs Mission Manipur",
+        "type": "ORG",
+        "score": 0.91
+      },
+      {
+        "node": "North East Dialogue Forum",
+        "type": "ORG",
+        "score": 0.89
+      },
+      {
+        "node": "relief demand",
+        "type": "EVENT",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "য়ুনাইটেড এনজিও মিসন মণিপুর অমসুং নোর্ঠ ইষ্ট ডাইলোগ ফোরমনা রগাইলোং, গুৱাহাটী অমসুং অগরতলাগী বোম আক্রমণশিংদা মীচমশিংগী পুন্সি মাঙহনবা অমসুং শোকহনববু তীব্র য়ানিংদবা ফোঙদোকখি। মখোয়না মীচমশিংবু টার্গেট তৌবা থৌওংশিং অমুক হন্না থোক্তনবা সরকারনা মতিক চাবা মওংদা হোত্নবা দরকার ওই হায়খি। অশোকপ অমদি শিরিবা মীওইশিংগীদমক এক্স-গ্রেসিয়া অমসুং শেনফম পীনবসু ডিমাণ্ড তৌরি।"
+  },
+  {
+    "doc_id": "MN_NEWS_030",
+    "headline": "গবর্ণমেন্ট এডেড স্কুলশিংগী ওইবা চপ চাবা পোলিসি গবর্ণমেন্টনা শেম্মু",
+    "headline_en": "Government should frame a comprehensive policy for aided schools",
+    "source_language": "Manipuri",
+    "date": "August 6",
+    "location": "Imphal, Manipur",
+    "domain": "Education / Policy",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "ডেসামনা কংলা হোলদা গবর্ণমেন্ট এডেড স্কুলশিংগী মতাংদা খন্ন-নৈনবগী থৌরম পাঙথোকখি"
+      },
+      {
+        "sid": 2,
+        "text": "রিসোর্স পার্সনশিংনা গবর্ণমেন্টনা এডেড স্কুলশিংগীদমক চপ চাবা পোলিসি শেম্বা দরকার ওই হায়খি"
+      },
+      {
+        "sid": 3,
+        "text": "ডাক্টর সিঙাম গ্যানেশ্বরনা এডেড স্কুলশিংগী গ্রান্ট ইন-এইড কণ্ডিসনশিং অমদি পার্ফরমেন্সগী মতাংদা হায়খি"
+      },
+      {
+        "sid": 4,
+        "text": "নন-পর্ফোমিং স্কুলশিংদা গ্রান্ট ইন-এইড ককপা হায়বসি চুমদে হায়না মতাম থমখি"
+      },
+      {
+        "sid": 5,
+        "text": "টিঐচ ইবোপিশক্না স্কুলশিংগী ইনফ্রাষ্ট্রকচর অমদি ষ্টাফ পের্টন ফজদবা মরম ওই হায়খি"
+      },
+      {
+        "sid": 6,
+        "text": "এন চাউবনা এপ্রুব তৌরবা ওজাগী মশিং খরা খক্তনি অমসুং ত্রেনিং প্রোভিজন উদে হায়না ফোঙদোকখি"
+      },
+      {
+        "sid": 7,
+        "text": "রিসোর্স পার্সনশিংনা ওজাশিংবু ওরিয়েন্টেসন অমদি ত্রেনিং কোর্স মতম চানা পীনবা দরকার ওই হায়খি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "পোলিসি",
+        "pos": "NOUN"
+      },
+      {
+        "token": "এডেড",
+        "pos": "ADJ"
+      },
+      {
+        "token": "স্কুলশিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "গ্রান্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ইন-এইড",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ত্রেনিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোঙদোকখি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল",
+        "text_en": "Imphal",
+        "label": "LOC"
+      },
+      {
+        "text": "কংলা হল",
+        "text_en": "Kangla Hall",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "ডেসাম",
+        "text_en": "DESAM",
+        "label": "ORG"
+      },
+      {
+        "text": "ডাক্টর সিঙাম গ্যানেশ্বর",
+        "text_en": "Dr. Singam Gyaneshwar",
+        "label": "PERSON"
+      },
+      {
+        "text": "টিঐচ ইবোপিশক",
+        "text_en": "T.H. Ibopishak",
+        "label": "PERSON"
+      },
+      {
+        "text": "এন চাউবা",
+        "text_en": "N. Chaoba",
+        "label": "PERSON"
+      },
+      {
+        "text": "শৌগ্রাকপম কুঞ্জবিহারি",
+        "text_en": "Shougrakpam Kunjabihari",
+        "label": "PERSON"
+      },
+      {
+        "text": "সি অমুবা",
+        "text_en": "C. Amuba",
+        "label": "PERSON"
+      },
+      {
+        "text": "ঐচ অসির্জিত",
+        "text_en": "H. Asirjit",
+        "label": "PERSON"
+      },
+      {
+        "text": "মণিপুর য়ুনিবর্সিটি",
+        "text_en": "Manipur University",
+        "label": "ORG"
+      },
+      {
+        "text": "ওল মণিপুর ষ্টুডেন্টস গার্জিয়ান্স ওর্গনাইজেসন",
+        "text_en": "All Manipur Students' Guardians Organisation",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "খন্ন-নৈনবগী থৌরম পাঙথোকখি",
+        "trigger_en": "discussion programme held",
+        "type": "DISCUSSION_EVENT",
+        "arguments": [
+          {
+            "role": "ORGANIZER",
+            "text": "ডেসাম",
+            "text_en": "DESAM"
+          },
+          {
+            "role": "LOC",
+            "text": "কংলা হল",
+            "text_en": "Kangla Hall"
+          },
+          {
+            "role": "TOPIC",
+            "text": "গবর্ণমেন্ট এডেড স্কুলশিং",
+            "text_en": "government-aided schools"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "পোলিসি শেম্বা দরকার ওই",
+        "trigger_en": "need to frame policy",
+        "type": "POLICY_DEMAND",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "গবর্ণমেন্ট",
+            "text_en": "government"
+          },
+          {
+            "role": "OBJECT",
+            "text": "এডেড স্কুলশিংগী চপ চাবা পোলিসি",
+            "text_en": "comprehensive policy for aided schools"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "গ্রান্ট ইন-এইড ককপা",
+        "trigger_en": "withdraw grant-in-aid",
+        "type": "FUNDING_ACTION",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "নন-পর্ফোমিং স্কুলশিং",
+            "text_en": "non-performing schools"
+          },
+          {
+            "role": "OBJECT",
+            "text": "গ্রান্ট ইন-এইড",
+            "text_en": "grant-in-aid"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "ত্রেনিং প্রোভিজন উদে",
+        "trigger_en": "training provision absent",
+        "type": "TRAINING_GAP",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "ওজাশিং",
+            "text_en": "teachers"
+          },
+          {
+            "role": "ISSUE",
+            "text": "বিএড / ডাইট ত্রেনিং",
+            "text_en": "B.Ed / DIET training"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "ওরিয়েন্টেসন অমদি ত্রেনিং কোর্স পীনবা দরকার ওই",
+        "trigger_en": "orientation and training should be provided",
+        "type": "TRAINING_RECOMMENDATION",
+        "arguments": [
+          {
+            "role": "BENEFICIARY",
+            "text": "ওজাশিং",
+            "text_en": "teachers"
+          },
+          {
+            "role": "OBJECT",
+            "text": "ওরিয়েন্টেসন ত্রেনিং কোর্স",
+            "text_en": "orientation training courses"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "At a discussion programme organized by DESAM at Kangla Hall in Imphal, resource persons emphasized the need for the government to formulate a comprehensive policy for government-aided schools in Manipur. Speakers noted that although rules exist for grant-in-aid, poor school performance cannot be blamed only on the schools, since many institutions face shortages in infrastructure, trained teachers, and regular financial support. They argued that instead of simply withdrawing grants from non-performing schools, the government should examine the underlying causes and create a stronger policy framework. Participants also highlighted the need for regular teacher training, orientation programmes, and proper implementation support so that aided schools can maintain quality education.",
+    "salience": [
+      {
+        "node": "policy for aided schools",
+        "type": "EVENT",
+        "score": 0.97
+      },
+      {
+        "node": "DESAM discussion programme",
+        "type": "EVENT",
+        "score": 0.94
+      },
+      {
+        "node": "grant-in-aid issue",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "teacher training gap",
+        "type": "EVENT",
+        "score": 0.89
+      },
+      {
+        "node": "government-aided schools",
+        "type": "ORG_GROUP",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "ডেসামনা কংলা হলদা পাঙথোকখিবা খন্ন-নৈনবগী থৌরমদা গবর্ণমেন্ট এডেড স্কুলশিংগীদমক চপ চাবা পোলিসি অমা সরকারনা শেম্বা দরকার ওই হায়না রিসোর্স পার্সনশিংনা ফোঙদোকখি। মখোয়না ইনফ্রাষ্ট্রকচার, ত্রেইনড ওজা অমসুং গ্রান্ট ইন-এইডগী শোযশিং মরম ওইরগা নন-পারফোমিং স্কুলশিংবু খক্তা দায়ি তৌবা চুমদে হায়খি। ওজাশিংগীদমক নিয়মিত অরিয়েন্টেসন অমদি ত্রেনিং কোর্স পীনবা দরকার ওই হায়রি।"
+  },
+  {
+    "doc_id": "MN_NEWS_031",
+    "headline": "মোনিকানা সাইগী ডাইরেক্টরদা তকখত্খ্রে",
+    "headline_en": "Monika writes to SAI director over doping test report",
+    "source_language": "Manipuri",
+    "date": "August 6",
+    "location": "New Delhi, India",
+    "domain": "Sports / Doping controversy",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "ডোপ টে ষ্টতা পোজিটিব ওইরে হায়বা ৱাফম মোনিকানা য়ানীংদে হায়রি"
+      },
+      {
+        "sid": 2,
+        "text": "মোনিকানা সাইগী ইগজিক্যুটিব ডাইরেক্টর আরকে নাইডুদা ডোপ টে ষ্টকি রিপোর্ট পীনবা তকশিনখ্রে"
+      },
+      {
+        "sid": 3,
+        "text": "নাইডুনা রিপোর্ট অদু শান্নরোয় মশাদা পীরোই ফেডরেসন্দা পীগনি হায়না হায়খি"
+      },
+      {
+        "sid": 4,
+        "text": "মোনিকানা প্রমান পীয়ু হায়না তকশিনখি"
+      },
+      {
+        "sid": 5,
+        "text": "ইণ্ডিয়ান ৱেঠ লিফটিং ফেডরেসনগী প্রসিডেন্ট হরভজন্না এই থৌদোক অসি য়াম্না নুংঙাইতবগা ফোঙদোকখি"
+      },
+      {
+        "sid": 6,
+        "text": "ডাক্টর টি মৈন্যনা এহানবদা হ্বাইট পেপর অমা পুথোক্তনবা তকশিনখ্রে"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "ডোপ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "টে ষ্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পোজিটিব",
+        "pos": "ADJ"
+      },
+      {
+        "token": "রিপোর্ট",
+        "pos": "NOUN"
+      },
+      {
+        "token": "তকশিনখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "ফোঙদোকখি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ন্যু দিল্লি",
+        "text_en": "New Delhi",
+        "label": "LOC"
+      },
+      {
+        "text": "মোনিকা",
+        "text_en": "Monika",
+        "label": "PERSON"
+      },
+      {
+        "text": "আরকে নাইডু",
+        "text_en": "R.K. Naidu",
+        "label": "PERSON"
+      },
+      {
+        "text": "হরভজন",
+        "text_en": "Harbhajan",
+        "label": "PERSON"
+      },
+      {
+        "text": "ডাক্টর টি মৈন্য",
+        "text_en": "Dr. T. Meinya",
+        "label": "PERSON"
+      },
+      {
+        "text": "ডাক্টর এমএস গিল",
+        "text_en": "Dr. M.S. Gill",
+        "label": "PERSON"
+      },
+      {
+        "text": "সাই",
+        "text_en": "Sports Authority of India (SAI)",
+        "label": "ORG"
+      },
+      {
+        "text": "ইণ্ডিয়ান ৱেঠ লিফটিং ফেডরেসন",
+        "text_en": "Indian Weightlifting Federation",
+        "label": "ORG"
+      },
+      {
+        "text": "ওলিম্পিক স্কোয়াড",
+        "text_en": "Olympic squad",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "পোজিটিব ওইরে",
+        "trigger_en": "tested positive",
+        "type": "DOPING_ALLEGATION",
+        "arguments": [
+          {
+            "role": "ATHLETE",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          },
+          {
+            "role": "ISSUE",
+            "text": "ডোপ টে ষ্ট",
+            "text_en": "doping test"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "রিপোর্ট পীনবা তকশিনখ্রে",
+        "trigger_en": "requested test report",
+        "type": "DOCUMENT_REQUEST",
+        "arguments": [
+          {
+            "role": "REQUESTER",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          },
+          {
+            "role": "RECIPIENT",
+            "text": "আরকে নাইডু",
+            "text_en": "R.K. Naidu"
+          },
+          {
+            "role": "DOCUMENT",
+            "text": "ডোপ টে ষ্টকি রিপোর্ট",
+            "text_en": "doping test report"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "শান্নরোয় মশাদা পীরোই",
+        "trigger_en": "refused to hand report directly",
+        "type": "REFUSAL",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "আরকে নাইডু",
+            "text_en": "R.K. Naidu"
+          },
+          {
+            "role": "TARGET",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          },
+          {
+            "role": "DOCUMENT",
+            "text": "রিপোর্ট",
+            "text_en": "test report"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "হ্বাইট পেপর পুথোক্তনবা তকশিনখ্রে",
+        "trigger_en": "demanded white paper",
+        "type": "POLITICAL_DEMAND",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "ডাক্টর টি মৈন্য",
+            "text_en": "Dr. T. Meinya"
+          },
+          {
+            "role": "TOPIC",
+            "text": "মোনিকাবু ওলিম্পিক স্কোয়াডতগী ককথত্খিবা",
+            "text_en": "Monika's exclusion from the Olympic squad"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "ককথত্খিবা",
+        "trigger_en": "dropped from squad",
+        "type": "TEAM_EXCLUSION",
+        "arguments": [
+          {
+            "role": "ATHLETE",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          },
+          {
+            "role": "GROUP",
+            "text": "ওলিম্পিক স্কোয়াড",
+            "text_en": "Olympic squad"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Weightlifter Monika strongly rejected reports that she had tested positive in a doping test and demanded that SAI provide her with the official test report. She wrote to SAI Executive Director R.K. Naidu asking for documentary proof, while alleging unfair treatment in the matter. SAI officials reportedly said the report would be given to the federation rather than directly to the athlete. The controversy triggered wider criticism from sports and political circles, with calls for greater transparency and even a white paper on her removal from the Olympic squad.",
+    "salience": [
+      {
+        "node": "Monika",
+        "type": "PERSON",
+        "score": 0.98
+      },
+      {
+        "node": "doping test controversy",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "request for official report",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "Olympic squad exclusion",
+        "type": "EVENT",
+        "score": 0.9
+      },
+      {
+        "node": "SAI",
+        "type": "ORG",
+        "score": 0.88
+      }
+    ],
+    "manipuri_human_summary": "ৱেটলিফ্টর মোনিকানা ডোপ টেস্টতা পোজিটিব ওইরে হায়বা পাউ য়ানীংদে হায়রগা সাইগী ইগজিক্যুটিব ডাইরেক্টর আর.কে. নাইডুদা অফিসিয়েল রিপোর্ট পীনবা তকশিনখ্রে। মহাক্না প্রমাণ খঙহনবীয়ু হায়রগা অনিয়ম ওই হায়বগী ফোঙদোকখি। থৌদোক অদুনা স্পোর্টস অমদি রাজনৈতিক মফমদা শেংনা ময়েকশিনব অমদি হ্বাইট পেপর ডিমান্দ থোকহনখি।"
+  },
+  {
+    "doc_id": "MN_NEWS_032",
+    "headline": "থাজবা ৱাত্লি : সিএম ইবোবি",
+    "headline_en": "CM Ibobi expresses doubt over Monika’s doping allegation",
+    "source_language": "Manipuri",
+    "date": "August 6",
+    "location": "Imphal, India",
+    "domain": "Sports / Governance",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "মোনিকাবু ডোপিং টে ষ্টতা পোজিটিব ওই হায়রিবা অসি থাজবা ৱাত্লি হায়না চীফ মিনিষ্টরনা হায়খি"
+      },
+      {
+        "sid": 2,
+        "text": "গবর্ণমেন্টনা হিরম অসিদা য়াম্না লুম্না লৌই হায়না ফোঙদোকখ্রে"
+      },
+      {
+        "sid": 3,
+        "text": "মোনিকাবু লান্না উহন্নবা ওইরবদি সেকেণ্ড ওপিনিয়ন লৌবা তঙাইফদে হায়খি"
+      },
+      {
+        "sid": 4,
+        "text": "স্পোর্টস মিনিষ্টর দিল্লিদা চত্তুনা ফীবমসি য়েংশিল্লুরগনি"
+      },
+      {
+        "sid": 5,
+        "text": "সাইনা ডোপিং টে ষ্টতা পোজিটিব ওইবগী মরম পীয়ু হায়বা য়াদ্রি হায়না মোনিকানা হায়খি"
+      },
+      {
+        "sid": 6,
+        "text": "মোনিকাগী কেস চুমদবা ওইরম্বা তারবদি মহাক ৈবজিং ওলেম্পিকতা শরুক য়াবগী খুদোংচাব পীরি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "ডোপিং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পোজিটিব",
+        "pos": "ADJ"
+      },
+      {
+        "token": "থাজবা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোঙদোকখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "লৌই",
+        "pos": "VERB"
+      },
+      {
+        "token": "পীয়ু",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল",
+        "text_en": "Imphal",
+        "label": "LOC"
+      },
+      {
+        "text": "চীফ মিনিষ্টর ও ইবোবি",
+        "text_en": "Chief Minister Okram Ibobi Singh",
+        "label": "PERSON"
+      },
+      {
+        "text": "মোনিকা",
+        "text_en": "Monika",
+        "label": "PERSON"
+      },
+      {
+        "text": "এন বিরেন",
+        "text_en": "N. Biren Singh",
+        "label": "PERSON"
+      },
+      {
+        "text": "সুরেস কলমাদি",
+        "text_en": "Suresh Kalmadi",
+        "label": "PERSON"
+      },
+      {
+        "text": "স্পোর্টস ওঠোরিটি ওফ ইণ্ডিয়া",
+        "text_en": "Sports Authority of India (SAI)",
+        "label": "ORG"
+      },
+      {
+        "text": "ইণ্ডিয়ান ওলেম্পিক এসোসিয়েসন",
+        "text_en": "Indian Olympic Association",
+        "label": "ORG"
+      },
+      {
+        "text": "ৈবজিং ওলেম্পিক",
+        "text_en": "Beijing Olympics",
+        "label": "EVENT"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "থাজবা ৱাত্লি",
+        "trigger_en": "expressed doubt",
+        "type": "OPINION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "চীফ মিনিষ্টর ও ইবোবি",
+            "text_en": "CM Okram Ibobi Singh"
+          },
+          {
+            "role": "TOPIC",
+            "text": "মোনিকাগী ডোপিং কেস",
+            "text_en": "Monika doping case"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "লুম্না লৌই",
+        "trigger_en": "took serious note",
+        "type": "GOVERNMENT_RESPONSE",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "গবর্ণমেন্ট",
+            "text_en": "Government"
+          },
+          {
+            "role": "ISSUE",
+            "text": "ডোপিং কেস",
+            "text_en": "doping case"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "সেকেণ্ড ওপিনিয়ন লৌবা",
+        "trigger_en": "seek second opinion",
+        "type": "INVESTIGATION",
+        "arguments": [
+          {
+            "role": "BENEFICIARY",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "পীয়ু হায়বা য়াদ্রি",
+        "trigger_en": "refused to give explanation",
+        "type": "REFUSAL",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "সাই",
+            "text_en": "SAI"
+          },
+          {
+            "role": "TARGET",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          },
+          {
+            "role": "OBJECT",
+            "text": "ডোপিং রিপোর্ট",
+            "text_en": "doping report"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "শরুক য়াবগী খুদোংচাব পীরি",
+        "trigger_en": "chance to participate",
+        "type": "SPORTS_OPPORTUNITY",
+        "arguments": [
+          {
+            "role": "ATHLETE",
+            "text": "মোনিকা",
+            "text_en": "Monika"
+          },
+          {
+            "role": "EVENT",
+            "text": "ৈবজিং ওলেম্পিক",
+            "text_en": "Beijing Olympics"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "Chief Minister Okram Ibobi Singh expressed doubts over reports that weightlifter Monika tested positive in a doping test and said the government is taking the matter seriously. He suggested that a second opinion should be sought if she is being unfairly targeted, and rejected any possibility of favoritism. Monika, currently in Delhi, also stated that the Sports Authority of India has not provided her with a clear explanation for the alleged positive test. Officials are reviewing the situation, and if the case is resolved in her favor, she may still get the opportunity to compete in the Beijing Olympics.",
+    "salience": [
+      {
+        "node": "Monika",
+        "type": "PERSON",
+        "score": 0.97
+      },
+      {
+        "node": "CM Ibobi Singh",
+        "type": "PERSON",
+        "score": 0.94
+      },
+      {
+        "node": "doping allegation",
+        "type": "EVENT",
+        "score": 0.96
+      },
+      {
+        "node": "government response",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "Beijing Olympics participation",
+        "type": "EVENT",
+        "score": 0.9
+      }
+    ],
+    "manipuri_human_summary": "চীফ মিনিষ্টর ওক্রাম ইবোবি সিংহনসু মোনিকাগী ডোপিং কেস অসি থাজবা ৱাত্লি হায়না হংখি অমসুং গবর্ণমেন্টনা হিরম অদু গুরুতর ওইনা য়েংলি হায়না ফোঙদোকখি। মহাক্না লান্না উহন্নবা মওং ওইরবদি সেকেণ্ড ওপিনিয়ন লৌবা তঙাইফদে হায়খি। কেস অসি মোনিকাগী মায়োক্তা ফাওরবদি মহাক ৈবজিং ওলেম্পিকতা শরুক য়াবা য়াই হায়রি।"
+  },
+  {
+    "doc_id": "MN_NEWS_033",
+    "headline": "বস মঙা অকায়-অতোয় থোকহনখ্রে",
+    "headline_en": "Five buses vandalized amid bandh in Imphal West",
+    "source_language": "Manipuri",
+    "date": "August 6",
+    "location": "Imphal West, Manipur, India",
+    "domain": "Law & Order / Protest",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "জেএসিগী বন্দ শৌগত্পশিংনা উশোইপোকপিদা বস মঙা অকায়-অতোয় থোকহনখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "নেসনেল হায়ৱে 39 থিংখিবা মীয়াম পুলিসনা টিয়ার গ্যাস শীজিন্নদুনা তানখাইখি"
+      },
+      {
+        "sid": 3,
+        "text": "সেক্যুরিটি লৈরে খন্দুনা পেসেঞ্জরশিংগী খল্লগা সার্বিস তৌজবনি হায়না য়ুনিয়ননা হায়খি"
+      },
+      {
+        "sid": 4,
+        "text": "অসিগুম্বা থৌওং অসি য়ুনি-য়ন্না কন্দেম তৌখি"
+      },
+      {
+        "sid": 5,
+        "text": "মশক খঙদবশিংনা মারুটি ভেন অমা তান্না অকায়-অতোয় থোকখি"
+      },
+      {
+        "sid": 6,
+        "text": "লিলোং পুলিসতা এফআইআর অমা লোডজ তৌখ্রে"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "বস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "অকায়-অতোয়",
+        "pos": "NOUN"
+      },
+      {
+        "token": "থোকহনখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "টিয়ার গ্যাস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "কন্দেম",
+        "pos": "VERB"
+      },
+      {
+        "token": "এফআইআর",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল ৱেষ্ট",
+        "text_en": "Imphal West",
+        "label": "LOC"
+      },
+      {
+        "text": "উশোইপোকপি",
+        "text_en": "Ushoipokpi",
+        "label": "LOC"
+      },
+      {
+        "text": "লিলোং",
+        "text_en": "Lilong",
+        "label": "LOC"
+      },
+      {
+        "text": "নেসনেল হায়ৱে 39",
+        "text_en": "National Highway 39",
+        "label": "LOC"
+      },
+      {
+        "text": "জেএসি",
+        "text_en": "Joint Action Committee (JAC)",
+        "label": "ORG"
+      },
+      {
+        "text": "ইণ্ডো-বর্মা শুগ্নু রোড বস ওনর্স ৱেলফেয়ার ইউনিয়ন",
+        "text_en": "Indo-Burma Sugnu Road Bus Owners Welfare Union",
+        "label": "ORG"
+      },
+      {
+        "text": "লিলোং পুলিস",
+        "text_en": "Lilong Police",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "অকায়-অতোয় থোকহনখ্রে",
+        "trigger_en": "vandalized",
+        "type": "PROPERTY_DAMAGE",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "বন্দ শৌগত্পশিং (জেএসি)",
+            "text_en": "bandh supporters (JAC)"
+          },
+          {
+            "role": "TARGET",
+            "text": "বস মঙা",
+            "text_en": "five buses"
+          },
+          {
+            "role": "PLACE",
+            "text": "উশোইপোকপি",
+            "text_en": "Ushoipokpi"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "টিয়ার গ্যাস শীজিন্নদুনা তানখাইখি",
+        "trigger_en": "dispersed using tear gas",
+        "type": "POLICE_ACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "PLACE",
+            "text": "নেসনেল হায়ৱে 39",
+            "text_en": "NH-39"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "কন্দেম তৌখি",
+        "trigger_en": "condemned",
+        "type": "REACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "বস ওনার্স ইউনিয়ন",
+            "text_en": "Bus Owners Union"
+          },
+          {
+            "role": "EVENT",
+            "text": "বস ভাঙচুর",
+            "text_en": "bus vandalism"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "অকায়-অতোয় থোকখি",
+        "trigger_en": "attacked",
+        "type": "VEHICLE_ATTACK",
+        "arguments": [
+          {
+            "role": "TARGET",
+            "text": "মারুটি ভেন (MN-1A/6357)",
+            "text_en": "Maruti van"
+          },
+          {
+            "role": "PLACE",
+            "text": "লিলোং",
+            "text_en": "Lilong"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_5",
+        "trigger": "এফআইআর লোডজ তৌখ্রে",
+        "trigger_en": "FIR filed",
+        "type": "LEGAL_ACTION",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "লিলোং পুলিস",
+            "text_en": "Lilong Police"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "During a bandh called by a Joint Action Committee in Imphal West, five buses were vandalized at Ushoipokpi. Protesters also blocked National Highway 39, prompting police to disperse them using tear gas. The Bus Owners Welfare Union condemned the incident and appealed for safety of passengers and services. In a related incident, a Maruti van was also attacked. Police have registered an FIR in connection with the violence.",
+    "salience": [
+      {
+        "node": "bus vandalism",
+        "type": "EVENT",
+        "score": 0.97
+      },
+      {
+        "node": "JAC bandh",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "police action (tear gas)",
+        "type": "EVENT",
+        "score": 0.92
+      },
+      {
+        "node": "Bus Owners Union",
+        "type": "ORG",
+        "score": 0.89
+      },
+      {
+        "node": "FIR filing",
+        "type": "EVENT",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "ইম্ফাল ৱেষ্টতা জেএসিগী বন্দগী মনুংদা উশোইপোকপিদা বস মঙা ভাঙচুর তৌখ্রে। প্রটেষ্টরশিংনা নেসনেল হায়ৱে 39 থিংখিবা মতুংদা পুলিসনা টিয়ার গ্যাস শীজিন্নদুনা তানখাইখি। বস ওনার্স ইউনিয়ননা থৌওং অদু কন্দেম তৌখ্রগা পেসেঞ্জরশিংগী সেফটি শেংদোকপা দরকার ওই হায়খি, অমরোমদা লিলোং পুলিসতা এফআইআরসু লোডজ তৌখ্রে।"
+  },
+  {
+    "doc_id": "MN_NEWS_036",
+    "headline": "নেসনেল রি-ডেডিকেসন ডে : হিংসাগী মফম লৈহল্লোই : সিএম",
+    "headline_en": "National Rededication Day: Violence will not be tolerated, says CM",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Imphal, Manipur",
+    "domain": "Politics / Public Address / Security",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "চীফ মিনিষ্টর ও ইবোবীনা নেসনেল রিডেডিকেসন ডে থৌরমদা হিংসাগী মফম লৈহল্লোই হায়না ফোঙদোকখ্রে"
+      },
+      {
+        "sid": 2,
+        "text": "থৌরম অসি মণিপুর রাইফলস গ্রাউন্দা পাঙথোকখি"
+      },
+      {
+        "sid": 3,
+        "text": "ইন্দিরা গান্ধী বু 1984 দা হত্যা তৌখিবগী নীংশিংবগা লোয়ননা থৌরম পাঙথোকপনি"
+      },
+      {
+        "sid": 4,
+        "text": "মণিপুর ডেমোক্রেসি চত্পা ষ্টেট অমা ওইনা ইণ্ডিয়াগী শরুক অমনি হায়না চীফ মিনিষ্টরনা হায়খি"
+      },
+      {
+        "sid": 5,
+        "text": "হিংসাগী থৌদোকশিংনা লমদমগী চাওখত থৌরাংদা অয়েত্পা পীরি"
+      },
+      {
+        "sid": 6,
+        "text": "মীয়াম্না হিংসাগী থৌদোকশিংদগী চেকশিনবগী তঙাইফদবা লৈ হায়না হংখি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "হিংসা",
+        "pos": "NOUN"
+      },
+      {
+        "token": "ফোঙদোকখ্রে",
+        "pos": "VERB"
+      },
+      {
+        "token": "থৌরম",
+        "pos": "NOUN"
+      },
+      {
+        "token": "চেকশিনব",
+        "pos": "VERB"
+      },
+      {
+        "token": "ডেমোক্রেসি",
+        "pos": "NOUN"
+      }
+    ],
+    "ner": [
+      {
+        "text": "ইম্ফাল",
+        "text_en": "Imphal",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "ইণ্ডিয়া",
+        "text_en": "India",
+        "label": "LOC"
+      },
+      {
+        "text": "ও ইবোবী",
+        "text_en": "O. Ibobi Singh",
+        "label": "PERSON"
+      },
+      {
+        "text": "ইন্দিরা গান্ধী",
+        "text_en": "Indira Gandhi",
+        "label": "PERSON"
+      },
+      {
+        "text": "মণিপুর রাইফলস",
+        "text_en": "Manipur Rifles",
+        "label": "ORG"
+      },
+      {
+        "text": "কাউন্সিল ওফ মিনিষ্টরশিং",
+        "text_en": "Council of Ministers",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "ফোঙদোকখ্রে",
+        "trigger_en": "stated / declared",
+        "type": "POLITICAL_STATEMENT",
+        "arguments": [
+          {
+            "role": "SPEAKER",
+            "text": "ও ইবোবী",
+            "text_en": "O. Ibobi Singh"
+          },
+          {
+            "role": "TOPIC",
+            "text": "হিংসাগী মফম লৈহল্লোই",
+            "text_en": "violence will not be tolerated"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "পাঙথোকখি",
+        "trigger_en": "event held",
+        "type": "CEREMONY",
+        "arguments": [
+          {
+            "role": "EVENT",
+            "text": "নেসনেল রিডেডিকেসন ডে",
+            "text_en": "National Rededication Day"
+          },
+          {
+            "role": "LOC",
+            "text": "মণিপুর রাইফলস গ্রাউন্দ",
+            "text_en": "Manipur Rifles Ground"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "হত্যা তৌখিব",
+        "trigger_en": "assassination",
+        "type": "ASSASSINATION",
+        "arguments": [
+          {
+            "role": "VICTIM",
+            "text": "ইন্দিরা গান্ধী",
+            "text_en": "Indira Gandhi"
+          },
+          {
+            "role": "TIME",
+            "text": "1984",
+            "text_en": "1984"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "হংখি",
+        "trigger_en": "urged / appealed",
+        "type": "PUBLIC_APPEAL",
+        "arguments": [
+          {
+            "role": "SPEAKER",
+            "text": "চীফ মিনিষ্টর",
+            "text_en": "Chief Minister"
+          },
+          {
+            "role": "TARGET",
+            "text": "মীয়াম",
+            "text_en": "general public"
+          },
+          {
+            "role": "TOPIC",
+            "text": "হিংসাগী থৌদোকশিংদগী চেকশিনব",
+            "text_en": "preventing violence"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "At the National Rededication Day ceremony held at Manipur Rifles Ground, Chief Minister O. Ibobi Singh stated that violence would not be tolerated in the state. The event commemorated the assassination of former Prime Minister Indira Gandhi and emphasized national unity and integrity. The Chief Minister highlighted that Manipur is an integral part of India and stressed resolving differences through democratic means rather than violence. He urged the public to remain vigilant and prevent violent incidents, noting that violence hampers development and stability.",
+    "salience": [
+      {
+        "node": "National Rededication Day",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "anti-violence statement",
+        "type": "EVENT",
+        "score": 0.93
+      },
+      {
+        "node": "O. Ibobi Singh",
+        "type": "PERSON",
+        "score": 0.9
+      },
+      {
+        "node": "Indira Gandhi assassination remembrance",
+        "type": "EVENT",
+        "score": 0.88
+      },
+      {
+        "node": "Manipur",
+        "type": "LOC",
+        "score": 0.86
+      }
+    ],
+    "manipuri_human_summary": "মণিপুর রাইফলস গ্রাউন্দা পাঙথোকখিবা নেসনেল রিডেডিকেসন ডে থৌরমদা চীফ মিনিষ্টর ও ইবোবীনা হিংসাগী মফম লৈহল্লোই হায়না ফোঙদোকখ্রে। থৌরম অদুনা ইন্দিরা গান্ধীগী হত্যা নীংশিংদুনা জাতীয় ঐক্য অমসুং ইন্টিগ্রিটি গী মরুওই ফোঙদোকখি। মহাক্না মীয়ামবু হিংসাগী থৌদোক থেংননবা অমদি ডেমোক্রেটিক মওংদা ৱারী শান্নবা হায়না আপিল তৌরক্লি।"
+  },
+  {
+    "doc_id": "MN_NEWS_041",
+    "headline": "প্রধান অমা কাপ্তুনা হাত্লম্লে",
+    "headline_en": "Village Pradhan shot dead in Thoubal district",
+    "source_language": "Manipuri",
+    "date": "November 3",
+    "location": "Lilong, Thoubal district, Manipur",
+    "domain": "Crime / Security",
+    "sentences": [
+      {
+        "sid": 1,
+        "text": "গ্রাম পঞ্চায়ট প্রধান এমডি জুমা খানবু নোংমৈনা কাপ্তুনা হাত্লম্লে"
+      },
+      {
+        "sid": 2,
+        "text": "মশক খঙদবা মীওইশিংনা লিল্লোংদা থৌদোক অসি তৌখি"
+      },
+      {
+        "sid": 3,
+        "text": "পুলিসনা মফমদা চঙশিনখি অমদি হকচাং লৌখত্খি"
+      },
+      {
+        "sid": 4,
+        "text": "হকচাং অদু রিমস মোর্গতা থমখ্রে"
+      },
+      {
+        "sid": 5,
+        "text": "হাত্লম্লিবা মরম খঙদ্রি"
+      }
+    ],
+    "pos_tags": [
+      {
+        "token": "হাত্লম্লে",
+        "pos": "VERB"
+      },
+      {
+        "token": "নোংমৈ",
+        "pos": "NOUN"
+      },
+      {
+        "token": "পুলিস",
+        "pos": "NOUN"
+      },
+      {
+        "token": "হকচাং",
+        "pos": "NOUN"
+      },
+      {
+        "token": "লৌখত্খি",
+        "pos": "VERB"
+      }
+    ],
+    "ner": [
+      {
+        "text": "এমডি জুমা খান",
+        "text_en": "MD Juma Khan",
+        "label": "PERSON"
+      },
+      {
+        "text": "লিল্লোং",
+        "text_en": "Lilong",
+        "label": "LOC"
+      },
+      {
+        "text": "থৌবাল ডিষ্ট্রিক্ট",
+        "text_en": "Thoubal District",
+        "label": "LOC"
+      },
+      {
+        "text": "মণিপুর",
+        "text_en": "Manipur",
+        "label": "LOC"
+      },
+      {
+        "text": "রিমস",
+        "text_en": "RIMS Hospital",
+        "label": "LOC"
+      },
+      {
+        "text": "পুলিস",
+        "text_en": "Police",
+        "label": "ORG"
+      }
+    ],
+    "events": [
+      {
+        "event_id": "ev_1",
+        "trigger": "নোংমৈনা কাপ্তুনা হাত্লম্লে",
+        "trigger_en": "shot dead",
+        "type": "KILLING",
+        "arguments": [
+          {
+            "role": "VICTIM",
+            "text": "এমডি জুমা খান",
+            "text_en": "MD Juma Khan"
+          },
+          {
+            "role": "LOC",
+            "text": "লিল্লোং",
+            "text_en": "Lilong"
+          },
+          {
+            "role": "TIME",
+            "text": "পুং 4.30",
+            "text_en": "4:30 PM"
+          },
+          {
+            "role": "AGENT",
+            "text": "মশক খঙদবা মীওইশিং",
+            "text_en": "unknown assailants"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_2",
+        "trigger": "চঙশিনখি",
+        "trigger_en": "arrived / responded",
+        "type": "POLICE_RESPONSE",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "LOC",
+            "text": "মফম",
+            "text_en": "incident site"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_3",
+        "trigger": "হকচাং লৌখত্খি",
+        "trigger_en": "body recovered",
+        "type": "BODY_RECOVERY",
+        "arguments": [
+          {
+            "role": "AGENT",
+            "text": "পুলিস",
+            "text_en": "Police"
+          },
+          {
+            "role": "VICTIM",
+            "text": "এমডি জুমা খান",
+            "text_en": "MD Juma Khan"
+          }
+        ]
+      },
+      {
+        "event_id": "ev_4",
+        "trigger": "থমখ্রে",
+        "trigger_en": "kept in morgue",
+        "type": "POSTMORTEM",
+        "arguments": [
+          {
+            "role": "LOC",
+            "text": "রিমস",
+            "text_en": "RIMS Hospital"
+          }
+        ]
+      }
+    ],
+    "summary_en_human": "MD Juma Khan, a Gram Panchayat Pradhan from Thoubal district, was shot dead by unidentified assailants in Lilong around 4:30 PM. Police rushed to the scene after receiving information and recovered the body, which bore multiple bullet injuries. The body was later shifted to the RIMS morgue for post-mortem examination. According to reports, the victim had earlier visited the Thoubal DC office before the incident. The motive behind the killing remains unknown, and investigations are ongoing.",
+    "salience": [
+      {
+        "node": "MD Juma Khan",
+        "type": "PERSON",
+        "score": 0.97
+      },
+      {
+        "node": "shooting incident",
+        "type": "EVENT",
+        "score": 0.95
+      },
+      {
+        "node": "Lilong",
+        "type": "LOC",
+        "score": 0.92
+      },
+      {
+        "node": "police response",
+        "type": "EVENT",
+        "score": 0.89
+      },
+      {
+        "node": "RIMS Hospital",
+        "type": "LOC",
+        "score": 0.87
+      }
+    ],
+    "manipuri_human_summary": "থৌবাল ডিষ্ট্রিক্টকি গ্রাম পঞ্চায়ট প্রধান এমডি জুমা খানবু লিল্লোংদা পুং 4.30 রোমদা মশক খঙদবা মীওইশিংনা নোংমৈনা কাপ্তুনা হাত্লম্লে। পুলিসনা মফমদা চঙশিন্দুনা হকচাং লৌখত্খি অমসুং মদু রিমস মোর্গতা থমখ্রে। হাত্লম্বা মরম অদু হৌজিক ফাওবা খঙদ্রি অমসুং তদন্ত চত্থরি।"
+  }
+]
